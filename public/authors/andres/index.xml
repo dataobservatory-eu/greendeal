@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrés García Molina, PhD | Competition Data Observatory</title>
+    <link>https://competition.dataobservatory.eu/authors/andres/</link>
+      <atom:link href="https://competition.dataobservatory.eu/authors/andres/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrés García Molina, PhD</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://competition.dataobservatory.eu/authors/andres/avatar_huccfa58404f6afcbea347c8a825caa59b_94907_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Andrés García Molina, PhD</title>
+      <link>https://competition.dataobservatory.eu/authors/andres/</link>
+    </image>
+    
+  </channel>
+</rss>

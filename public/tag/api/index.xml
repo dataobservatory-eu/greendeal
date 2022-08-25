@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>api | Competition Data Observatory</title>
+    <link>https://competition.dataobservatory.eu/tag/api/</link>
+      <atom:link href="https://competition.dataobservatory.eu/tag/api/index.xml" rel="self" type="application/rss+xml" />
+    <description>api</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Nov 2021 10:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://competition.dataobservatory.eu/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>api</title>
+      <link>https://competition.dataobservatory.eu/tag/api/</link>
+    </image>
+    
+    <item>
+      <title>How We Add Value to Public Data With Better Curation And Documentation?</title>
+      <link>https://competition.dataobservatory.eu/post/2021-11-08-indicator_findable/</link>
+      <pubDate>Mon, 08 Nov 2021 09:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/post/2021-11-08-indicator_findable/</guid>
+      <description>&lt;p&gt;In this example, we show a simple indicator: the &lt;em&gt;Turnover in Radio Broadcasting Enterprises&lt;/em&gt; in many European countries. This is an important demand driver in the &lt;em&gt;Music economy&lt;/em&gt; pillar of our &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt;, and important indicator in our more general &lt;a href=&#34;https://ccsi.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cultural &amp;amp; Creative Sectors and Industries Observatory&lt;/a&gt;. Of course, if you work with competition policy or antitrust, than any industry may be interesting to you&amp;ndash;but not all of them are well-serverd with data.&lt;/p&gt;
+&lt;p&gt;This dataset comes from a public datasource, the data warehouse of the
+European statistical agency, Eurostat. Yet it is not trivial to use:
+unless you are familiar with national accounts, you will not find &lt;a href=&#34;https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=sbs_na_1a_se_r2&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this dataset&lt;/a&gt; on the Eurostat website.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-data-can-be-retrieved-from-the-annual-detailed-enterprise-statistics-for-services-nace-rev2-h-n-and-s95-eurostat-folder&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/eurostat_radio_broadcasting_turnover.png&#34; alt=&#34;The data can be retrieved from the Annual detailed enterprise statistics for services NACE Rev.2 H-N and S95 Eurostat folder.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The data can be retrieved from the Annual detailed enterprise statistics for services NACE Rev.2 H-N and S95 Eurostat folder.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Our version of this statistical indicator is documented following the &lt;a href=&#34;https://www.go-fair.org/fair-principles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR principles&lt;/a&gt;: our data assets
+are findable, accessible, interoperable, and reusable. While the
+Eurostat data warehouse partly fulfills these important data quality
+expectations, we can improve them significantly. And we can also
+improve the dataset, too, as we will show in the &lt;a href=&#34;https://competition.dataobservatory.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;findable-data&#34;&gt;Findable Data&lt;/h2&gt;
+&lt;p&gt;Our data observatories add value by curating the data&amp;ndash;we bring this
+indicator to light with a more descriptive name, and we place it in a domain-specific context with our &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; and &lt;a href=&#34;https://ccsi.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cultural &amp;amp; Creative Sectors and Industries Observatory&lt;/a&gt; and a policy-specific context with our &lt;em&gt;Competition Data Observatory&lt;/em&gt; and &lt;em&gt;Green Deal Data Observatory&lt;/em&gt;. While many people may need this dataset in the creative sectors, or among cultural policy designers, most of them have no training in working with
+national accounts, which imply decyphering national account data codes in records that measure economic activity at a national level. Our curated data observatories bring together many available data around important domains. Our &lt;em&gt;Digital Music Observatory&lt;/em&gt;, for example, aims to form an ecosystem of music data users and producers.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-added-descriptive-metadatahttpszenodoorgrecord5652113yykvbwdmkuk-that-help-you-find-our-data-and-match-it-with-other-relevant-data-sources&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/zenodo_metadata_eurostat_radio_broadcasting_turnover.png&#34; alt=&#34;We [added descriptive metadata](https://zenodo.org/record/5652113#.YYkVBWDMKUk) that help you find our data and match it with other relevant data sources.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We &lt;a href=&#34;https://zenodo.org/record/5652113#.YYkVBWDMKUk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;added descriptive metadata&lt;/a&gt; that help you find our data and match it with other relevant data sources.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;We added descriptive metadata that help you find our data and match it
+with other relevant data sources. For example, we add keywords and
+standardized metadata identifiers from the Library of Congress Linked
+Data Services, probably the world’s largest standardized knowledge
+library description. This ensures that you can find relevant data
+around the same key term (&lt;a href=&#34;https://id.loc.gov/authorities/subjects/sh85110448.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;radio broadcasting&lt;/a&gt;)
+in addition to our turnover data. This allows connecting our dataset unambiguosly
+with other information sources that use the same concept, but may be listed under
+different keywords, such as &lt;em&gt;Radio–Broadcasting&lt;/em&gt;, or &lt;em&gt;Radio industry and
+trade&lt;/em&gt;, or maybe &lt;em&gt;Hörfunkveranstalter&lt;/em&gt; in German, or &lt;em&gt;Emitiranje
+radijskog programa&lt;/em&gt; in Croatian or &lt;em&gt;Actividades de radiodifusão&lt;/em&gt; in
+Portugese.&lt;/p&gt;
+&lt;h2 id=&#34;accessible-data&#34;&gt;Accessible Data&lt;/h2&gt;
+&lt;p&gt;Our data is accessible in two forms: in &lt;code&gt;csv&lt;/code&gt; tabular format (which can be
+read with Excel, OpenOffice, Numbers, SPSS and many similar spreadsheet
+or statistical applications) and in &lt;code&gt;JSON&lt;/code&gt; for automated importing into
+your databases. We can also provide our users with SQLite databases,
+which are fully functional, single user relational databases.&lt;/p&gt;
+&lt;p&gt;Tidy datasets are easy to manipulate, model and visualize, and have a
+specific structure: each variable is a column, each observation is a
+row, and each type of observational unit is a table. This makes the data
+easier to clean, and far more easier to use in a much wider range of
+applications than the original data we used. In theory, this is a simple objective,
+yet we find that even governmental statistical agencies&amp;ndash;and even scientific
+publications&amp;ndash;often publish untidy data. This poses a significant problem that implies
+productivity loses: tidying data will require long hours of investment, and if
+a reproducible workflow is not used, data integrity can also be compromised:
+chances are that the process of tidying will overwrite, delete, or omit a data or a label.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tidy-datasetshttpsr4dshadconztidy-datahtml-are-easy-to-manipulate-model-and-visualize-and-have-a-specific-structure-each-variable-is-a-column-each-observation-is-a-row-and-each-type-of-observational-unit-is-a-table&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/tidy-8.png&#34; alt=&#34;[Tidy datasets](https://r4ds.had.co.nz/tidy-data.html) are easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tidy datasets&lt;/a&gt; are easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;While the original data source, the Eurostat data warehouse is
+accessible, too, we added value with bringing the data into a &lt;a href=&#34;https://www.jstatsoft.org/article/view/v059i10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidy
+format&lt;/a&gt;. Tidy data can
+immediately be imported into a statistical application like SPSS or
+STATA, or into your own database. It is immediately available for
+plotting in Excel, OpenOffice or Numbers.&lt;/p&gt;
+&lt;h2 id=&#34;interoperability&#34;&gt;Interoperability&lt;/h2&gt;
+&lt;p&gt;Our data can be easily imported with, or joined with data from other internal or external sources.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-all-our-indicators-come-with-standardized-descriptive-metadata-and-statistical-processing-metadata-see-our-apihttpsapimusicdataobservatoryeudatabasemetadata&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/observatory_screenshots/DMO_API_metadata_table.png&#34; alt=&#34;All our indicators come with standardized descriptive metadata, and statistical (processing) metadata. See our [API](https://api.music.dataobservatory.eu/database/metadata/) &#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      All our indicators come with standardized descriptive metadata, and statistical (processing) metadata. See our &lt;a href=&#34;https://api.music.dataobservatory.eu/database/metadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;All our indicators come with standardized descriptive metadata,
+following two important standards, the &lt;a href=&#34;https://dublincore.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dublin Core&lt;/a&gt; and
+&lt;a href=&#34;https://datacite.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCite&lt;/a&gt;–implementing not only the mandatory,
+but the recommended descriptions, too. This will make it far easier to
+connect the data with other data sources, e.g. turnover with the number of radio broadcasting enterprises or radio stations within specific territories.&lt;/p&gt;
+&lt;p&gt;Our passion for documentation standards and best practices goes much further: our data uses &lt;a href=&#34;https://sdmx.org/?page_id=3215/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistical Data and Metadata eXchange&lt;/a&gt; standardized codebooks, unit descriptions and other statistical and administrative metadata.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-we-participate-in-scientific-workhttpsreprexnlpublicationeuropean_visibilitiy_2021-related-to-data-interoperability&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/reports/european_visbility_publication.png&#34; alt=&#34;We participate in [scientific work](https://reprex.nl/publication/european_visibilitiy_2021/) related to data interoperability.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      We participate in &lt;a href=&#34;https://reprex.nl/publication/european_visibilitiy_2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scientific work&lt;/a&gt; related to data interoperability.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;h2 id=&#34;reuse&#34;&gt;Reuse&lt;/h2&gt;
+&lt;p&gt;All our datasets come with standardized information about reusabililty.
+We add citation, attribution data, and licensing terms. Most of our
+datasets can be used without commercial restriction after acknowledging
+the source, but we sometimes work with less permissible data licenses.&lt;/p&gt;
+&lt;p&gt;In the case presented here, we added further value to encourage re-use. In addition to tidying, we
+significantly increased the usability of public data by handling
+missing cases. This is the subject of our &lt;a href=&#34;https://competition.dataobservatory.eu/post/2021-11-06-indicator_value_added/&#34;&gt;next blogpost&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Are you a data user? Give us some feedback! Shall we do some further automatic data enhancements with our datasets? Document with different metadata? Link more information for business, policy, or academic use? Please give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;feedback&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How We Add Value to Public Data With Imputation and Forecasting</title>
+      <link>https://competition.dataobservatory.eu/post/2021-11-06-indicator_value_added/</link>
+      <pubDate>Mon, 08 Nov 2021 10:00:00 +0100</pubDate>
+      <guid>https://competition.dataobservatory.eu/post/2021-11-06-indicator_value_added/</guid>
+      <description>&lt;p&gt;Public data sources are often plagued by missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information. This approach of ignoring or dropping missing values will not be feasible or robust when you want to make a beautiful visualization, or use data in a business forecasting model, a machine learning (AI) applicaton, or a more complex scientific model. All of the above require complete datasets, and naively discarding missing data points amounts to an excessive waste of information. In this example we are continuing the example a not-so-easy to find public dataset.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-in-the-previous-blogpostpost2021-11-08-indicator_findable-we-explained-how-we-added-value-by-documenting-data-following-the-fair-principle-and-with-the-professional-curatorial-work-of-placing-the-data-in-context-and-linking-it-to-other-information-sources-such-as-other-datasets-books-and-publications-regardless-of-their-natural-language-ie-whether-these-sources-are-described-in-english-german-portugese-or-croatian-photo-jack-sloophttpsunsplashcomphotoseywn81spkj8&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/jack-sloop-eYwn81sPkJ8-unsplash.jpg&#34; alt=&#34;[In the previous blogpost](/post/2021-11-08-indicator_findable/) we explained how we added value by documenting data following the *FAIR* principle and with the professional curatorial work of placing the data in context, and linking it to other information sources, such as other datasets, books, and publications, regardless of their natural language (i.e., whether these sources are described in English, German, Portugese or Croatian). Photo: [Jack Sloop](https://unsplash.com/photos/eYwn81sPkJ8).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://competition.dataobservatory.eu/post/2021-11-08-indicator_findable/&#34;&gt;In the previous blogpost&lt;/a&gt; we explained how we added value by documenting data following the &lt;em&gt;FAIR&lt;/em&gt; principle and with the professional curatorial work of placing the data in context, and linking it to other information sources, such as other datasets, books, and publications, regardless of their natural language (i.e., whether these sources are described in English, German, Portugese or Croatian). Photo: &lt;a href=&#34;https://unsplash.com/photos/eYwn81sPkJ8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jack Sloop&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Completing missing datapoints requires statistical production information (why might the data be missing?) and data science knowhow (how to impute the missing value.) If you do not have a good statistician or data scientist in your team, you will need high-quality, complete datasets. This is what our automated data observatories provide.&lt;/p&gt;
+&lt;h2 id=&#34;why-is-data-missing&#34;&gt;Why is data missing?&lt;/h2&gt;
+&lt;p&gt;International organizations offer many statistical products, but usually they are on an ‘as-is’ basis. For example, Eurostat is the world’s premiere statistical agency, but it has no right to overrule whatever data the member states of the European Union, and some other cooperating European countries give to them. And they cannot force these countries to hand over data if they fail to do so. As a result, there will be many data points that are missing, and often data points that have wrong (obsolete) descriptions or geographical dimensions. We will show the geographical aspect of the problem in a separate blogpost; for now, we only focus on missing data.&lt;/p&gt;
+&lt;p&gt;Some countries have only recently started providing data to the Eurostat umbrella organization, and it is likely that you will find few datapoints for North Macedonia or Bosnia-Herzegovina. Other countries provide data with some delay, and the last one or two years are missing. And there are gaps in some countries’ data, too.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-see-the-authoritative-copy-of-the-datasethttpszenodoorgrecord5652118yykhvmdmkuk&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/trb_plot.png&#34; alt=&#34;See the authoritative copy of the [dataset](https://zenodo.org/record/5652118#.YYkhVmDMKUk).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      See the authoritative copy of the &lt;a href=&#34;https://zenodo.org/record/5652118#.YYkhVmDMKUk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;This is a headache if you want to use the data in some machine learning application or in a multiple or panel regression model. You can, of course, discard countries or years where you do not have full data coverage, but this approach usually wastes too much information&amp;ndash;if you work with 12 years, and only one data point is available, you would be discarding an entire country’s 11-years’ worth of data. Another option is to estimate the values, or otherwise impute the missing data, when this is possible with reasonable precision. This is where things get tricky, and you will likely need a statistician or a data scientist onboard.&lt;/p&gt;
+&lt;h2 id=&#34;what-can-we-improve&#34;&gt;What can we improve?&lt;/h2&gt;
+&lt;p&gt;Consider that the data is only missing from one year for a particular country, 2015. The naive solution would be to omit 2015 or the country at hand from the dataset. This is pretty destructive, because we know a lot about the radio market turnover in this country and in this year! But leaving 2015 blank will not look good on a chart, and will make your machine learning application or your regression model stop.&lt;/p&gt;
+&lt;p&gt;A statistician or a radio market expert will tell you that you know more-or-less the missing information: the total turnover was certainly not zero in that year.  With some statistical or radio domain-specific knowledge you will use the 2014, or 2016 value, or a combination of the two and keep the country and year in the dataset.&lt;/p&gt;
+&lt;p&gt;Our improved dataset added backcasted (using the best time series model fitting the country&amp;rsquo;s actually present data), forecasted (again, using the best time series model), and approximated data (using linear approximation.) In a few cases, we add the last or next known value.  To give a few quantiative indicators about our work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increased number of observations: 65%&lt;/li&gt;
+&lt;li&gt;Reduced missing values: -48.1%&lt;/li&gt;
+&lt;li&gt;Increased non-missing subset for regression or AI: +66.67%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If your organization is working with panel (longitudional multiple) regressions or various machine learning applications, then your team knows that not havint the +66.67% gain would be a deal-breaker in the choice of models and punctuality of estimates or KPIs or other quantiative products. And that they would spent about 90% of their data resources on achieving this +66.67% gain in usability.&lt;/p&gt;
+&lt;p&gt;If you happen to work in an NGO, a business unit or a research institute that does not employ data scientists, then it is likely that you can never achieve this improvement, and you have to give up on a number of quantitative tools or visualizations. If you  have a data scientist onboard, that professional can use our work as a starting point.&lt;/p&gt;
+&lt;h2 id=&#34;can-you-trust-our-data&#34;&gt;Can you trust our data?&lt;/h2&gt;
+&lt;p&gt;We believe that you can trust our data better than the original public source. We use statistical expertise to find out why data may be missing. Often, it is present in a wrong location (for example, the name of a region changed.)&lt;/p&gt;
+&lt;p&gt;If you are reluctant to use estimates, think about discarding known actual data from your forecast or visualization, because one data point is missing.  How do you provide more accurate information? By hiding known actual data, because one point is missing, or by using all known data and an estimate?&lt;/p&gt;
+&lt;p&gt;Our codebooks and our API uses the &lt;a href=&#34;https://sdmx.org/?page_id=3215/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Statistical Data and Metadata eXchange&lt;/a&gt; documentation standards to clearly indicate which data is observed, which is missing, which is estimated, and of course, also how it is estimated.
+This example highlights another important aspect of data trustworthiness. If you have a better idea, you can replace them with a better estimate.&lt;/p&gt;
+&lt;p&gt;Our indicators come with standardized codebooks that do not only contain the descriptive metadata, but administrative metadata about the history of the indicator values. You will find very important information about the statistical method we used the fill in the data gaps, and even link the reliable, the peer-reviewed scientific, statistical software that made the calculations. For data scientists, we record the plenty of information about the computing environment, too-–this can come handy if your estimates need external authentication, or you suspect a bug.&lt;/p&gt;
+&lt;h2 id=&#34;avoid-the-data-sisyphus&#34;&gt;Avoid the data Sisyphus&lt;/h2&gt;
+&lt;p&gt;If you work in an academic institution, in an NGO or a consultancy, you can never be sure who downloaded the &lt;a href=&#34;https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=sbs_na_1a_se_r2&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual detailed enterprise statistics for services (NACE Rev. 2 H-N and S95)&lt;/a&gt; Eurostat folder from Eurostat. Did they modify the dataset? Did they already make corrections with the missing data? What method did they use? To prevent many potential problems, you will likely download it again, and again, and again&amp;hellip;&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-see-our-the-data-sisyphushttpsreprexnlpost2021-07-08-data-sisyphus-blogpost&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library.png&#34; alt=&#34;See our [The Data Sisyphus](https://reprex.nl/post/2021-07-08-data-sisyphus/) blogpost.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      See our &lt;a href=&#34;https://reprex.nl/post/2021-07-08-data-sisyphus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Data Sisyphus&lt;/a&gt; blogpost.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;We have a better solution. You can always rely on our API to import directly the latest, best data, but if you want to be sure, you can use our &lt;a href=&#34;https://zenodo.org/record/5652118#.YYhGOGDMLIU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regular backups&lt;/a&gt; on Zenodo. Zenodo is an open science repository managed by CERN and supported by the European Union. On Zenodo, you can find an authoritative copy of our indicator (and its previous versions) with a digital object identifier, in this case, &lt;a href=&#34;https://doi.org/10.5281/zenodo.5652118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.5281/zenodo.5652118&lt;/a&gt;. These datasets will be preserved for decades, and nobody can manipulate them. You cannot accidentally overwrite them, and we have no backdoor access to modify them.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.5281/zenodo.5652118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://zenodo.org/badge/DOI/10.5281/zenodo.5652118.svg&#34; alt=&#34;DOI&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Are you a data user? Give us some feedback! Shall we do some further automatic data enhancements with our datasets? Document with different metadata? Link more information for business, policy, or academic use? Please  give us any &lt;a href=&#34;https://reprex.nl/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;feedback&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Data Sisyphus</title>
+      <link>https://competition.dataobservatory.eu/post/2021-07-08-data-sisyphus/</link>
+      <pubDate>Thu, 08 Jul 2021 09:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/post/2021-07-08-data-sisyphus/</guid>
+      <description>&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-sisyphus-was-punished-by-being-forced-to-roll-an-immense-boulder-up-a-hill-only-for-it-to-roll-down-every-time-it-neared-the-top-repeating-this-action-for-eternity--this-is-the-price-that-project-managers-and-analysts-pay-for-the-inadequate-documentation-of-their-data-assets&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/Sisyphus_Bodleian_Library.png&#34; alt=&#34;Sisyphus was punished by being forced to roll an immense boulder up a hill only for it to roll down every time it neared the top, repeating this action for eternity.  This is the price that project managers and analysts pay for the inadequate documentation of their data assets.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Sisyphus was punished by being forced to roll an immense boulder up a hill only for it to roll down every time it neared the top, repeating this action for eternity.  This is the price that project managers and analysts pay for the inadequate documentation of their data assets.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;&lt;em&gt;When was a file downloaded from the internet?  What happened with it sense?  Are their updates? Did the bibliographical reference was made for quotations?  Missing values imputed?  Currency translated? Who knows about it – who created a dataset, who contributed to it?  Which is an intermediate format of a spreadsheet file, and which is the final, checked, approved by a senior manager?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Big data creates inequality and injustice. On aspect of this inequality is the cost of data processing and documentation – a greatly underestimated, and usually not reported cost item. In small organizations, where there are no separate data science and data engineering roles, data is usually supposed to be processed and documented by (junior) analysts or researchers.  This a very important source of the gap between Big Tech and them: the data usually ends up very expensive, ill-formatted, not readable by computers that use machine learning and AI. Usually the documentation steps are completely omitted.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Data is potential information, analogous to potential energy: work is required to release it.” &amp;ndash; Jeffrey Pomerantz&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Metadata, which is information about the history of the data, and information how it can be technically and legally reused, has a hidden cost. Cheap or low-quality external data comes with poor or no metadata, and small organizations lack the resources to add high-quality metadata to their datasets. However, this only perpetuates the problem.&lt;/p&gt;
+&lt;h2 id=&#34;metadata-unbillable-hours&#34;&gt;The hidden cost item behind the unbillable hours&lt;/h2&gt;
+&lt;p&gt;As we have shown with our research partners, such metadata problems are not unique to data analysis.  Independent artists and small labels are suffering on music or book sales platforms, because their copyrighted content is not well documented.  If you automatically document tens of thousands of songs or datasets, the documentation cost is very small per item. If you, do it manually, the cost may be higher than the expected revenue from the song, or the total cost of the dataset itself. (See our research consortiums&amp;rsquo; preprint paper: &lt;a href=&#34;https://dataandlyrics.com/publication/european_visibilitiy_2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ensuring the Visibility and Accessibility of European Creative Content on the World Market: The Need for Copyright Data Improvement in the Light of New Technologies&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;In the short run, small consultancies, NGOs, or as a matter of fact, musicians, seem to logically give up on high-quality documentation and logging.  In the long run, this has two devastating consequences: computers, such as machine learning algorithms cannot read their documents, data, songs.  And as memory fades, the ill-documented resources need to be re-created, re-checked, reformatted.  Often, they are even hard to find on your internal server or laptop archive.&lt;/p&gt;
+&lt;p&gt;Metadata is a hidden destroyer of the competitiveness of corporate or academic research, or independent content management.   It never quoted on external data vendor invoices, it is not planned as a cost item, because metadata, the description of a dataset, a document, a presentation, or song, is meaningless without the resource that it describes. You never buy metadata.  But if your dataset comes without proper metadata documentation, you are bound, like Sisyphus, to search for it, to re-arrange it, to check its currency units, its digits, its formatting.  Data analysts are reported to spend about 80% of their working hours on data processing and not data analysis &amp;ndash; partly, because data processing is a very laborious task that can be done by computers at a scale far cheaper, and partly because they do not know if the person who sat before them at the same desk has already performed these tasks, or if the person responsible for quality control checked for errors.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-uncut-diamonds-need-to-be-cut-polished-and-you-have-to-make-sure-that-they-come-from-a-legal-source-data-is-similar-it-needs-to-be-tidied-up-checked-and-documented-before-use-photo-dave-fischer&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/gems/Uncut-diamond_Edit.jpg&#34; alt=&#34;Uncut diamonds need to be cut, polished, and you have to make sure that they come from a legal source. Data is similar: it needs to be tidied up, checked and documented before use. Photo: Dave Fischer.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Uncut diamonds need to be cut, polished, and you have to make sure that they come from a legal source. Data is similar: it needs to be tidied up, checked and documented before use. Photo: Dave Fischer.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;Undocumented data is hardly informative – it may be a page in a book, a file in an obsolete file format on a governmental server, an Excel sheet that you do not remember to have checked for updates.  Most data are useless, because we do not know how it can inform us, or we do not know if we can trust it.  The processing can be a daunting task, not to mention the most boring and often neglected documentation duties after the dataset is final and pronounced error-free by the person in charge of quality control.&lt;/p&gt;
+&lt;h2 id=&#34;observatory-metadata-services&#34;&gt;Our observatory automatically processes and documents the data&lt;/h2&gt;
+&lt;p&gt;The good news about documentation and data validation costs is that they can be shared.  If many users need GDP/capita data from all over the world in euros, then it is enough if only one entity, a data observatory, collects all GDP and population data expresed in dollars, korunas, and euros, and makes sure that the latest data is correctly translated to euros, and then correctly divided by the latest population figures. These task are error-prone,and should not be repeaeted by every data journalist, NGO employee, PhD student or junior analyst.  This is one of the services of our data observatory.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The tidy data format means that the data has a uniform and clear data structure and semantics, therefore it can be automatically validated for many common errors and can be automatically documented by either our software or any other professional data science application. It is not as strict as the schema for a relational database, but it is strict enough to make, among other things, importing into a database easy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The descriptive metadata contains information on how to find the data, access the data, join it with other data (interoperability) and use it, and reuse it, even years from now. Among others, it contains file format information and intellectual property rights information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The processing metadata makes the data usable in strictly regulated professional environments, such as in public administration, law firms, investment consultancies, or in scientific research. We give you the entire processing history of the data, which makes peer-review or external audit much easier and cheaper.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The authoritative copy is held at an independent repository, it has a globally unique identifier that protects you from accidental data loss, mixing up with unfinished an untested version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-cutting-the-dataset-to-a-format-with-clear-semantics-and-documenting-it-with-the-fair-metadata-concep-exponentially-increases-the-value-of-data-it-can-be-publisehd-or-sold-at-a-premium-photo-andere-andrehttpscommonswikimediaorgwindexphpcurid4770037&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/gems/Diamond_Polisher.jpg&#34; alt=&#34;Cutting the dataset to a format with clear semantics and documenting it with the FAIR metadata concep exponentially increases the value of data. It can be publisehd or sold at a premium. Photo: [Andere Andre](https://commons.wikimedia.org/w/index.php?curid=4770037).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Cutting the dataset to a format with clear semantics and documenting it with the FAIR metadata concep exponentially increases the value of data. It can be publisehd or sold at a premium. Photo: &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=4770037&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andere Andre&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;While humans are much better at analysing the information and human agency is required for trustworthy AI, computers are much better at processing and documenting data.  We apply to important concepts to our data service: we always process the data to the tidy format, we create an authoritative copy, and we always automatically add descriptive and processing metadata.&lt;/p&gt;
+&lt;h2 id=&#34;value-of-metadata&#34;&gt;The value of metadata&lt;/h2&gt;
+&lt;p&gt;Metadata is often more valuable and more costly to make than the data itself, yet it remains an elusive concept for senior or financial management.  Metadata is information about how to correctly use the data and has no value without the data itself.  Data acquisition, such as buying from a data vendor, or paying an opinion polling company, or external data consultants appears among the material costs, but metadata is never sold alone, and you do not see its cost.&lt;/p&gt;
+&lt;p&gt;In most cases, the reason why &lt;a href=&#34;https://dataandlyrics.com/post/2021-06-18-gold-without-rush/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;there is no gold rush for open data&lt;/a&gt; is that fact that while the EU member states release billions of euros&amp;rsquo; worth data for free, or at very low cost, annually, it comes without proper metadata.&lt;/p&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-data-as-serviceservicesdata-as-servicereusable-legal-easy-to-import-interoperable-always-fresh-data-in-tidy-formats-with-a-modern-api-photo-edgar-sotohttpsunsplashcomphotosgb0bzgae1nk&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/gems/edgar-soto-gb0BZGae1Nk-unsplash.jpg&#34; alt=&#34;[Data-as-Service](/services/data-as-service/)Reusable, legal, easy-to-import, interoperable, always fresh data in tidy formats with a modern API. Photo: [Edgar Soto](https://unsplash.com/photos/gb0BZGae1Nk).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://competition.dataobservatory.eu/services/data-as-service/&#34;&gt;Data-as-Service&lt;/a&gt;&lt;/br&gt;&lt;/br&gt;Reusable, legal, easy-to-import, interoperable, always fresh data in tidy formats with a modern API. Photo: &lt;a href=&#34;https://unsplash.com/photos/gb0BZGae1Nk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Edgar Soto&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;p&gt;If the data source is cheap or has a low quality, you do not even get it.  If you do not have it, it will show up as a human resource cost in research (when your analysist or junior researcher are spending countless hours to find out the missing metadata information on the correct use of the data) or in sales costs (when you try to reuse a research, consulting or legal product and you have comb through your archive and retest elements again and again.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The data, together with the descriptive and administrative metadata, and links to the use license and the authoritative copy can be found in our API. Try it out!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data API</title>
+      <link>https://competition.dataobservatory.eu/data/api/</link>
+      <pubDate>Tue, 01 Jun 2021 11:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/data/api/</guid>
+      <description>&lt;p&gt;Our observatory has a new data API which allows access to our daily refreshing open data. You can access the API via &lt;a href=&#34;http://api.economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;api.economy.dataobservatory.eu&lt;/a&gt; (&lt;em&gt;apologies for the ugly, temporary subdomain masking!&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;All the data and the metadata are available as open data, without database use restrictions, under the &lt;a href=&#34;https://opendatacommons.org/licenses/odbl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ODbL&lt;/a&gt; license. However, the metadata contents are not finalized yet. We are currently working on a solution that applies the &lt;a href=&#34;http://www.nature.com/articles/sdata201618&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR Guiding Principles for scientific data management and stewardship&lt;/a&gt;, and fulfills the mandatory requirements of the Dublic Core metadata standards and at the same time the &lt;a href=&#34;https://support.datacite.org/docs/datacite-metadata-schema-v44-mandatory-properties&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mandatory requirements&lt;/a&gt;, and most of the &lt;a href=&#34;https://support.datacite.org/docs/datacite-metadata-schema-v44-recommended-and-optional-properties&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recommended requirements&lt;/a&gt; of DataCite. These changes will be effective before 1 July 2021.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Competition Data Observatory&lt;/strong&gt; temporarily shares an API with the &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data Observatory&lt;/a&gt;, which serves as an incubator for similar economy-oriented reproducible research resources.&lt;/p&gt;
+&lt;h2 id=&#34;indicator-table&#34;&gt;Indicator table&lt;/h2&gt;
+&lt;p&gt;The indicator table contains the actual values, and the various estimated/imputed values of the indicator, clearly marking missing values, too.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-apieconomydataobservatoryeu-indicator-retrieval&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/observatory_screenshots/EDO_API_indicator_table.png&#34; alt=&#34;api.economy.dataobservatory.eu: indicator retrieval&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      api.economy.dataobservatory.eu: indicator retrieval
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;You can get the data in &lt;a href=&#34;http://52.4.54.69/database/indicator.csv?_size=max&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt; or &lt;a href=&#34;http://52.4.54.69/database/indicator.json&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;json&lt;/a&gt; format, or write SQL querries. (Tutorials in SQL, R, Python will be posted shortly.)&lt;/p&gt;
+&lt;h2 id=&#34;description-table&#34;&gt;Description metadata table&lt;/h2&gt;
+&lt;h2 id=&#34;metadata-table&#34;&gt;Processing Metadata table&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;http://52.4.54.69/database/metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;metadata table&lt;/a&gt; contains various data processing information, such as the first and last actual observation of the indicator, the number of approximated, forecasted, backcasted values, last update at source and in our system, and so on.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-apieconomydataobservatoryeu-processing-metadata&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/observatory_screenshots/EDO_API_metadata_table.png&#34; alt=&#34;api.economy.dataobservatory.eu: processing metadata&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      api.economy.dataobservatory.eu: processing metadata
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;authoritative-copies&#34;&gt;Authoritative Copies&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://zenodo.org/communities/greendeal_observatory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Greendeal Data Observatory on Zenodo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data-as-Service</title>
+      <link>https://competition.dataobservatory.eu/services/data-as-service/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/services/data-as-service/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;We want to ensure that individual researchers, artists, and professionals, as well as NGOs and small and large organizations can benefit equally from big data in the age of artificial intelligence.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Big data creates inequality and injustice because it is only the big corporations, big government agencies, and the biggest, best endowed universities that can finance long-lasting, comprehensive data collection programs. Big data, and large, well-processed, tidy, and accurately imputed datasets allow them to unleash the power of machine learning and AI. These large entities are able to create algorithms that decide the commercial success of your product and your artwork, giving them a competitive edge against smaller competitors while helping them evade regulations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out our &lt;a href=&#34;https:/iotables.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; software that helps the use of national accounts data from all EU members states to create economic direct, indirect and induced economic impact calculation, such as employment multipliers or GVA affects of various cultural and creative economy policies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out our &lt;a href=&#34;https:/regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; software that helps the harmonization of various European and African standardized surveys.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out our &lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; software that helps the harmonization of various European and African standardized surveys.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regional data | Competition Data Observatory</title>
+    <link>https://competition.dataobservatory.eu/tag/regional-data/</link>
+      <atom:link href="https://competition.dataobservatory.eu/tag/regional-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>regional data</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Jun 2021 12:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://competition.dataobservatory.eu/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>regional data</title>
+      <link>https://competition.dataobservatory.eu/tag/regional-data/</link>
+    </image>
+    
+    <item>
+      <title>There are Numerous Advantages of Switching from a National Level of the Analysis to a Sub National Level</title>
+      <link>https://competition.dataobservatory.eu/post/2021-06-16-regions-release/</link>
+      <pubDate>Wed, 16 Jun 2021 12:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/post/2021-06-16-regions-release/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/package_screenshots/regions_017_169.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;The new version of our &lt;a href=&#34;https://ropengov.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; R package
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; was released today on
+CRAN. This package is one of the engines of our experimental open
+data-as-service &lt;a href=&#34;https://greendeal.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data
+Observatory&lt;/a&gt; , &lt;a href=&#34;https://economy.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Economy Data
+Observatory&lt;/a&gt; , &lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music
+Observatory&lt;/a&gt; prototypes, which aim to
+place open data packages into open-source applications.&lt;/p&gt;
+&lt;p&gt;In international comparison the use of nationally aggregated indicators
+often have many disadvantages: they inhibit very different levels of
+homogeneity, and data is often very limited in number of observations
+for a cross-sectional analysis. When comparing European countries, a few
+missing cases can limit the cross-section of countries to around 20
+cases which disallows the use of many analytical methods. Working with
+sub-national statistics has many advantages: the similarity of the
+aggregation level and high number of observations can allow more precise
+control of model parameters and errors, and the number of observations
+grows from 20 to 200-300.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-change-from-national-to-sub-national-level-comes-with-a-huge-data-processing-price-internal-administrative-boundaries-their-names-codes-codes-change-very-frequently&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/indicator_with_map.png&#34; alt=&#34;The change from national to sub-national level comes with a huge data processing price: internal administrative boundaries, their names, codes codes change very frequently.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      The change from national to sub-national level comes with a huge data processing price: internal administrative boundaries, their names, codes codes change very frequently.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Yet the change from national to sub-national level comes with a huge
+data processing price. While national boundaries are relatively stable,
+with only a handful of changes in each recent decade. The change of
+national boundaries requires a more-or-less global consensus. But states
+are free to change their internal administrative boundaries, and they do
+it with large frequency. This means that the names, identification codes
+and boundary definitions of sub-national regions change very frequently.
+Joining data from different sources and different years can be very
+difficult.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-our-regions-r-packagehttpsregionsdataobservatoryeu-helps-the-data-processing-validation-and-imputation-of-sub-national-regional-datasets-and-their-coding&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/img/blogposts_2021/recoded_indicator_with_map.png&#34; alt=&#34;Our [regions R package](https://regions.dataobservatory.eu/) helps the data processing, validation and imputation of sub-national, regional datasets and their coding.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Our &lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions R package&lt;/a&gt; helps the data processing, validation and imputation of sub-national, regional datasets and their coding.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;There are numerous advantages of switching from a national level of the
+analysis to a sub-national level comes with a huge price in data
+processing, validation and imputation, and the
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; package aims to help this
+process.&lt;/p&gt;
+&lt;p&gt;You can review the problem, and the code that created the two map
+comparisons, in the &lt;a href=&#34;https://regions.dataobservatory.eu/articles/maping.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maping Regional Data, Maping Metadata
+Problems&lt;/a&gt;
+vignette article of the package. A more detailed problem description can
+be found in &lt;a href=&#34;https://regions.dataobservatory.eu/articles/Regional_stats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With Regional, Sub-National Statistical
+Products&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This package is an offspring of the
+&lt;a href=&#34;https://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package on
+&lt;a href=&#34;https://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;. It started as a tool to
+validate and re-code regional Eurostat statistics, but it aims to be a
+general solution for all sub-national statistics. It will be developed
+parallel with other rOpenGov packages.&lt;/p&gt;
+&lt;h2 id=&#34;get-the-package&#34;&gt;Get the Package&lt;/h2&gt;
+&lt;p&gt;You can install the development version from
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;rOpenGov/regions&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or the released version from CRAN:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;regions&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can review the complete package documentation on
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.dataobservaotry.eu&lt;/a&gt;. If
+you find any problems with the code, please raise an issue on
+&lt;a href=&#34;https://github.com/rOpenGov/regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Pull requests are welcome
+if you agree with the &lt;a href=&#34;https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of
+Conduct&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please cite the
+package as:
+Daniel Antal, Kasia Kulma, Istvan Zsoldos, &amp;amp; Leo Lahti. (2021, June 16). regions (Version 0.1.7). CRAN. &lt;a href=&#34;%28https://doi.org/10.5281/zenodo.4965909%29&#34;&gt;http://doi.org/10.5281/zenodo.4965909&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.r-pkg.org/badges/version/regions&#34; alt=&#34;CRAN_Status_Badge&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Join our open collaboration Economy Data Observatory team as a &lt;a href=&#34;https://competition.dataobservatory.eu/authors/curator&#34;&gt;data curator&lt;/a&gt;, &lt;a href=&#34;https://competition.dataobservatory.eu/authors/developer&#34;&gt;developer&lt;/a&gt; or &lt;a href=&#34;https://competition.dataobservatory.eu/authors/team&#34;&gt;business developer&lt;/a&gt;. More interested in environmental impact analysis? Try our &lt;a href=&#34;https://greendeal.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Green Deal Data Observatory&lt;/a&gt; team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our &lt;a href=&#34;https://music.dataobservatory.eu/#contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Music Observatory&lt;/a&gt; team!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/intent/follow?screen_name=EconDataObs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/twitter/follow/EconDataObs.svg?style=social&#34; alt=&#34;Follow GreenDealObs&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

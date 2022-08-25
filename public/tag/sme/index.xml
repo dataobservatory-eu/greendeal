@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SME | Competition Data Observatory</title>
+    <link>https://competition.dataobservatory.eu/tag/sme/</link>
+      <atom:link href="https://competition.dataobservatory.eu/tag/sme/index.xml" rel="self" type="application/rss+xml" />
+    <description>SME</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://competition.dataobservatory.eu/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>SME</title>
+      <link>https://competition.dataobservatory.eu/tag/sme/</link>
+    </image>
+    
+    <item>
+      <title>Small- and Medium Sized Enterprizes</title>
+      <link>https://competition.dataobservatory.eu/project/sme/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/project/sme/</guid>
+      <description>&lt;p&gt;Photo credit: &lt;a href=&#34;https://unsplash.com/photos/3asJCQUw9VA?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditShareLink&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tim Mossholder&lt;/a&gt;, &lt;a href=&#34;https://unsplash.com/license&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unplash licence&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

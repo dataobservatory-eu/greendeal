@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Competition Data Observatory</title>
+    <link>https://competition.dataobservatory.eu/event/</link>
+      <atom:link href="https://competition.dataobservatory.eu/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://competition.dataobservatory.eu/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://competition.dataobservatory.eu/event/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://competition.dataobservatory.eu/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://competition.dataobservatory.eu/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reprex Open Data Day 2021</title>
+      <link>https://competition.dataobservatory.eu/talk/reprex-open-data-day-2021/</link>
+      <pubDate>Sat, 06 Mar 2021 15:30:00 +0200</pubDate>
+      <guid>https://competition.dataobservatory.eu/talk/reprex-open-data-day-2021/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://opendataday.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Data Day&lt;/a&gt;  is an annual celebration of open data all over the world. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business, and civil society. Reprex is a start-up that utilizes open data with open-source reproducible research: please challenge us with your data requests and participate in our web events.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Reprex Open Data Day 2021&lt;/code&gt; will be two informal conversations based on a series of run up introductory blogposts centered around two themes. Because important guests became ill in the last days, we are going to consolidate the two talks into one with less structure.  We want to create an informal, inclusive, collaborative online event on International Open Data Day 2021. Please, grab a tea, coffee, or even a beer, and join us for an informal conversation. We hope that we will finish the afternoon with ideas on new, open-data driven collaborations.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;9.30 EST / 15.30 CET&lt;/code&gt;:  &lt;strong&gt;Open collaboration in business, policy and science.&lt;/strong&gt;   Creating evidence-based policy, business strategy or scientific research with small contributions with independent components with incentives.  Short introduction with examples:  joining environmental sensory data and public opinion data on maps; creating harmonized datasets across the Arab world.  Survey harmonization, mapping, data products.  &lt;strong&gt;Scaling up open collaboration: making small organizations competitive with big tech in the big data era.&lt;/strong&gt;  Data sharing, data pooling, data altruism and observatories. The new European trustworthy AI and data governance agenda.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&#34;https://competition.dataobservatory.eu/presentations/reprex_open_data_day_2021.html#/reprex&#34;&gt;click through&lt;/a&gt; a short presentation to familiarize yourself with our topics.&lt;/p&gt;
+&lt;p&gt;See you &lt;a href=&#34;https://meet.jit.si/ReprexOpenDataDay2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Case studies:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;We are connecting raw survey data about Climate Awareness in Eurobarometer surveys.  Here is the &lt;a href=&#34;https://rpubs.com/antaldaniel/734594&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reproduction code&lt;/a&gt; (&lt;em&gt;intermediate to advanced R needed&lt;/em&gt;.) You should use the &lt;em&gt;development&lt;/em&gt; version of our &lt;a href=&#34;retroharmonize.dataobservatory.eu&#34;&gt;retroharmonize&lt;/a&gt; package at &lt;a href=&#34;https://github.com/antaldaniel/retroharmonize&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/antaldaniel/retroharmonize&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We are tracking changes in the boundaries of provinces, states, counties, parishes with our regions open source software &amp;ndash; &lt;a href=&#34;https://rpubs.com/antaldaniel/regions-OOD21&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reproduction code here&lt;/a&gt;. You will need our &lt;a href=&#34;regions.dataobservatory.eu&#34;&gt;regions&lt;/a&gt; package which is available on CRAN or in the rOpenGov GitHub repo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We will talk about how to join this with air pollution data and put it on the map with &lt;a href=&#34;https://dataandlyrics.com/post/2021-03-03-ood_interview_maps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Milos Popovic&lt;/a&gt;, who prepared this nice choropleth animation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://competition.dataobservatory.eu/media/gif/eu_climate_change.gif&#34; alt=&#34;Milos Popovic&amp;amp;rsquo;s maps made from the case study.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;We will discuss data observatories (permanent data collection programs), open collaboration (open-source inspired way of cooperation among small and large independent actors) and data altruism.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Any questions: send Daniel a message on &lt;a href=&#34;https://keybase.io/antaldaniel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Keybase&lt;/a&gt;, Whatsapp or &lt;a href=&#34;https://dataandlyrics.com/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hello on International &lt;a href=&#34;https://twitter.com/hashtag/OpenDataDay2021?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OpenDataDay2021&lt;/a&gt; from🌷 the Hague!&lt;br&gt;- We have brought some new data to the light about 🌡climate change awareness &lt;br&gt;- We created some tutorials how to harmonize survey and geographical data&lt;br&gt;- Join us at 9.30 EST/15.30 CET 👇&lt;a href=&#34;https://t.co/7J7pvi3sPC&#34;&gt;https://t.co/7J7pvi3sPC&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ODD2021?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ODD2021&lt;/a&gt; &lt;a href=&#34;https://t.co/DwkGQaDhW1&#34;&gt;pic.twitter.com/DwkGQaDhW1&lt;/a&gt;&lt;/p&gt;&amp;mdash; dataandlyrics (@dataandlyrics) &lt;a href=&#34;https://twitter.com/dataandlyrics/status/1368149535436996609?ref_src=twsrc%5Etfw&#34;&gt;March 6, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

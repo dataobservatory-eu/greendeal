@@ -43,7 +43,7 @@ tags:
 - water
 - drought
 - Belgium
-- mitigation
+- climate mitigation
 - insurance
 
 ---

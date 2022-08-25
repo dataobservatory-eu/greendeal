@@ -33,10 +33,9 @@ authors:
 - daniel_antal
 
 tags:
-- retrospective-harmonization
 - surveys
-- climate-change
-- climate-awareness
+- climate change
+- climate awareness
 
 categories:
 - R-bloggers

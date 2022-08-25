@@ -32,9 +32,8 @@ authors:
 - daniel_antal
 
 tags:
-- retrospective-harmonization
 - surveys
-- eurobarometer
+- Eurobarometer
 
 categories:
 - R-bloggers

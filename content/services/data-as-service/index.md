@@ -50,12 +50,10 @@ slides: example
 Big data creates inequality and injustice because it is only the big corporations, big government agencies, and the biggest, best endowed universities that can finance long-lasting, comprehensive data collection programs. Big data, and large, well-processed, tidy, and accurately imputed datasets allow them to unleash the power of machine learning and AI. These large entities are able to create algorithms that decide the commercial success of your product and your artwork, giving them a competitive edge against smaller competitors while helping them evade regulations.
 
 
-
 > Check out our [iotables](https:/iotables.dataobservatory.eu/) software that helps the use of national accounts data from all EU members states to create economic direct, indirect and induced economic impact calculation, such as employment multipliers or GVA affects of various cultural and creative economy policies.
 
 
 > Check out our [regions](https:/regions.dataobservatory.eu/) software that helps the harmonization of various European and African standardized surveys.
-
 
 
 > Check out our [retroharmonize](https://retroharmonize.dataobservatory.eu/) software that helps the harmonization of various European and African standardized surveys.

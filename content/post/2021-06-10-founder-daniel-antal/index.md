@@ -1,33 +1,33 @@
-+++
-title = "Open Data is Like Gold in the Mud Below the Chilly Waves of Mountain Rivers"
-subtitle = "Introducing Our Service Development Team"
-date = 2021-06-10T07:00:00
-lastmod = 2021-06-10T09:00:00
-draft = false
+---
+title:  "Open Data is Like Gold in the Mud Below the Chilly Waves of Mountain Rivers"
+subtitle:  "Introducing Our Service Development Team"
+date:  2021-06-10T07:00:00
+lastmod:  2021-06-10T09:00:00
+draft:  false
 
-authors = ["daniel_antal"]
+authors:  ["daniel_antal"]
 
-tags = ["open-data", "open-science", "trustworthy AI", "service-design", "data collection"]
+tags:  ["open-data", "open-science", "trustworthy AI", "service-design", "data collection"]
 
-summary = "Open data is like gold in the mud below the chilly waves of mountain rivers. Panning it out requires a lot of patience, or a good machine. I think we will come to as surprising and strong findings as Bellingcat, but we are not focusing on individual events and stories, but on social and environmental processes and changes."
+summary:  "Open data is like gold in the mud below the chilly waves of mountain rivers. Panning it out requires a lot of patience, or a good machine. I think we will come to as surprising and strong findings as Bellingcat, but we are not focusing on individual events and stories, but on social and environmental processes and changes."
 
-projects = ["eu-datathon_2021"]
+projects:  ["eu-datathon_2021"]
 
 # Featured image
-[image]
+image:
   # Caption (optional)
-  caption = "Annette Wong"
+  caption:  "Annette Wong"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point:  "Center"
 
   # Show image only in page previews?
-  preview_only = true
+  preview_only:  true
 
-+++
+---
 
-{{< figure src="/media/img/slides/gold_panning_slide_notitle.png" caption="Open data is like gold in the mud below the chilly waves of mountain rivers. Panning it out requires a lot of patience, or a good machine." numbered="true" >}}
+{{< figure src="/img/slides/gold_panning_slide_notitle.png" caption="Open data is like gold in the mud below the chilly waves of mountain rivers. Panning it out requires a lot of patience, or a good machine." numbered="true" >}}
 
 **As the founder of the automated data observatories that are part of Reprex’s core activities, what type of data do you usually use in your day-to-day work?**
  
@@ -37,13 +37,13 @@ The automated data observatories are results of syndicated research, data poolin
  
 Our [retroharmonize](https://retroharmonize.dataobservatory.eu/) and [regions](https://regions.dataobservatory.eu/) packages can create regional statistics from [Eurobarometer](https://retroharmonize.dataobservatory.eu/articles/eurobarometer.html) and [Afrobarometer](https://retroharmonize.dataobservatory.eu/articles/afrobarometer.html) surveys on how people think locally about climate change. I would like to combine this with local information on observable climate change, such as drought, urban heat, and extreme weather conditions. Do people have to feel the pain of climate change to believe in the phenomenon? How do self-reported mitigation steps correlate with what people already feel in their local environment? Suzan is [talking](/post/2021-06-07-introducing-suzan-sidal/) about measuring mitigation and damage control, because she's aware of the already present health risks in overheating urban environments. I am more interested in what people think.
 
-{{< figure src="/img/flood-risk/belgium_spei_2018.png" caption="See our [case study](https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/) on connecting local tax revenues, climate awareness poll data and drought data in Belgium - we want to extend this to Europe and then to Africa. We also published the code how to do it with tutorials [1](/post/2021-03-05-retroharmonize-climate/), [2](https://rpubs.com/antaldaniel/regions-OOD21) for our [International Open Data Day 2021 Event](https://greendeal.netlify.app/talk/reprex-open-data-day-2021/)." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/belgium_spei_2018.png" caption="See our [case study](https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/) on connecting local tax revenues, climate awareness poll data and drought data in Belgium - we want to extend this to Europe and then to Africa. We also published the code how to do it with tutorials [1](/post/2021-03-05-retroharmonize-climate/), [2](https://rpubs.com/antaldaniel/regions-OOD21) for our [International Open Data Day 2021 Event](https://greendeal.netlify.app/talk/reprex-open-data-day-2021/)." numbered="true" >}}
 
 **Is there a number or piece of information that recently surprised you? If so, what was it?**
  
 There were a few numbers that surprised me, and some of them were brought up by our observatory teams. Karel is [talking](post/2021-06-08-data-curator-karel-volckaert/) about the fact that not all green energy is green at all: many hydropower stations contribute to the greenhouse effect and not reduce it. Annette brought up the growing interest in the [Dalmatian breed](/post/2021-06-09-team-annette-wong/) after the Disney *101 Dalmatians* movies, and it reminded me of the astonishing growth in interest for chess sets, chess tutorials, and platform subscriptions after the success of Netflix’s *The Queen’s Gambit*.
 
-{{< figure src="/media/img/blogposts_2021/queens_gambit_bloomberg.png" caption="*The Queen’s Gambit’ Chess Boom Moves Online By Rachael Dottle* on [bloomberg.com](https://www.bloomberg.com/graphics/2020-chess-boom/)" numbered="true" >}}
+{{< figure src="/img/blogposts_2021/queens_gambit_bloomberg.png" caption="*The Queen’s Gambit’ Chess Boom Moves Online By Rachael Dottle* on [bloomberg.com](https://www.bloomberg.com/graphics/2020-chess-boom/)" numbered="true" >}}
 
 Annette is talking about the importance of cultural influencers, and on that theme, what could be more exciting that [Netflix’s biggest success](https://www.netflix.com/nl-en/title/80234304) so far is not a detective series or a soap opera but a coming-of-age story of a female chess prodigy. Intelligence is sexy, and we are in the intelligence business. 
 
@@ -57,26 +57,26 @@ But to tell a more serious and more sobering number, I recently read with surpri
 
 The real power lies in designing a data collection program. A consistent data collection program usually requires an investment that only powerful organizations, such as government agencies, very large corporations, or the richest universities can afford. You cannot really analyze the data that is not collected and recorded; and usually what is not recorded is more interesting than what is. Our observatories want to democratize the data collection process and make it more available, more shared with research automation and pooling.
 
-{{< figure src="/media/img/slides/value_added_from_automation.png" caption="You cannot really analyze the data that is not collected and recorded; and usually what is not recorded is more interesting than what is. Our observatories want to democratize the data collection process and make it more available, more shared with research automation and pooling." numbered="true" >}}
+{{< figure src="/img/slides/value_added_from_automation.png" caption="You cannot really analyze the data that is not collected and recorded; and usually what is not recorded is more interesting than what is. Our observatories want to democratize the data collection process and make it more available, more shared with research automation and pooling." numbered="true" >}}
 
 **From your perspective, what do you see being the greatest problem with open data in 2021?**
  
 I have been involved with open data policies since 2004. The problem has not changed much: more and more data are available from governmental and scientific sources, but in a form that makes them useless. Data without clear description and clear processing information is useless for analytical purposes: it cannot be integrated with other data, and it cannot be trusted and verified. If researchers or government entities that fall under the [Open Data Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.172.01.0056.01.ENG) release data for reuse in a way that does not have descriptive or processing metadata, it is almost as if they did not release anything. You need this additional information to make valid analyses of the data, and to reverse-engineer them may cost more than to recollect the data in a properly documented process. Our developers, particularly [Leo](/post/2021-06-04-developer-leo-lahti/) and [Pyry](post/2021-06-07-data-curator-pyry-kantanen/) are talking eloquently about why you have to be careful even with governmental statistical products, and constantly be on the watch out for data quality.
 
-{{< figure src="/media/img/observatory_screenshots/GDO_API_metadata_table.png" caption="Our [API](/#data) is not only publishing descriptive and processing metadata alongside with our data, but we also make all critical elements of our processing code available for peer-review on [rOpenGov](/authors/ropengov/)" numbered="true" >}}
+{{< figure src="/img/observatory_screenshots/GDO_API_metadata_table.png" caption="Our [API](/#data) is not only publishing descriptive and processing metadata alongside with our data, but we also make all critical elements of our processing code available for peer-review on [rOpenGov](/authors/ropengov/)" numbered="true" >}}
 
  
 **What do you think the Green Deal Data Observatory, and our other automated observatories do, to make open data more credible in the European economic policy community and be accepted as verified information?**
  
 Most of our work is in research automation, and a very large part of our efforts are aiming to reverse engineer missing descriptive and processing metadata. In a way, I like to compare ourselves to the working method of the open-source intelligence platform [Bellingcat](https://www.bellingcat.com). They were able to use publicly available, [scattered information from satellites and social media](https://www.bellingcat.com/category/resources/case-studies/?fwp_tags=mh17) to identify each member of the Russian military company that illegally entered the territory of Ukraine and shot down the Malaysian Airways MH17 with 297, mainly Dutch, civilians on board. 
 
-{{< figure src="/media/img/slides/automated_observatory_value_chain.jpg" caption="How we create value for research-oriented consultancies, public policy institutes, university research teams, journalists or NGOs." numbered="true" >}}
+{{< figure src="/img/slides/automated_observatory_value_chain.jpg" caption="How we create value for research-oriented consultancies, public policy institutes, university research teams, journalists or NGOs." numbered="true" >}}
 
 We do not do such investigations but work very similarly to them in how we are filtering through many data sources and attempting to verify them when their descriptions and processing history is unknown. In the last years, we were able to estore the metadata of many European and African open data surveys, economic impact, and environmental impact data, or many other open data that was lying around for many years without users. 
 
 Open data is like gold in the mud below the chilly waves of mountain rivers. Panning it out requires a lot of patience, or a good machine. I think we will come to as surprising and strong findings as Bellingcat, but we are not focusing on individual events and stories, but on social and environmental processes and changes.
 
-{{< figure src="/media/img/observatory_screenshots/greendeal_and_zenodo.png" caption="Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team), or share your data in our public repository [Green Deal Data Observatory on Zenodo](https://zenodo.org/communities/greendeal_observatory/)." numbered="true" >}}
+{{< figure src="/img/observatory_screenshots/greendeal_and_zenodo.png" caption="Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team), or share your data in our public repository [Green Deal Data Observatory on Zenodo](https://zenodo.org/communities/greendeal_observatory/)." numbered="true" >}}
 
 ## Join us
 

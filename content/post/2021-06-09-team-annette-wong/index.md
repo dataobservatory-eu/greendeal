@@ -1,31 +1,31 @@
-+++
-title = "Educate and Train Data Admirers that Data is not Scary"
-subtitle = "Introducing Our Service Development Team"
-date = 2021-06-09T12:00:00
-lastmod = 2021-06-09T12:00:00
-draft = false
+---
+title:  "Educate and Train Data Admirers that Data is not Scary"
+subtitle:  "Introducing Our Service Development Team"
+date:  2021-06-09T12:00:00
+lastmod:  2021-06-09T12:00:00
+draft:  false
 
-authors = ["annette_wong"]
+authors:  ["annette_wong"]
 
-tags = ["open-data", "open-science", "trustworthy AI", "service-design", "communication"]
+tags:  ["open-data", "open-science", "trustworthy AI", "service-design", "communication"]
 
-summary = "101 Dalmatians was released in 1985 and 1991 which made thousands of families (in the U.S.) want to adopt one. The American Kennel Club reported that the annual number of Dalmatian puppies registered skyrocketed from 8,170 animals to 42,816."
+summary:  "101 Dalmatians was released in 1985 and 1991 which made thousands of families (in the U.S.) want to adopt one. The American Kennel Club reported that the annual number of Dalmatian puppies registered skyrocketed from 8,170 animals to 42,816."
 
-projects = ["eu-datathon_2021"]
+projects:  ["eu-datathon_2021"]
 
 # Featured image
-[image]
+image:
   # Caption (optional)
-  caption = "Annette Wong"
+  caption:  "Annette Wong"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point:  "Center"
 
   # Show image only in page previews?
-  preview_only = false
+  preview_only:  false
 
-+++
+---
 
 *Annette Wong is helping our service development from a digital strategy and marketing point of view.*
 
@@ -39,7 +39,7 @@ Currently, I’m working on a music livestreaming platform and everyday we’re 
 
 Seeing how the pandemic decimated the music industry, specifically in-person events, made me feel a lot of empathy for musicians and the economics of their situation, especially with how musicians generate a living income through their music. The importance of data and having open access promotes transparency, fairer wages (ideally), and levels the playing field for musicians of all sizes and popularity.
 
-{{< figure src="/media/img/blogposts_2021/difficulty_bills_levels.jpg" caption="Our [retroharmonization software](https://retroharmonize.dataobservatory.eu/) helps the creation of objective and comparable indicators about how musicians [make a living](https://data.music.dataobservatory.eu/music-economy.html#supply), or how people think about [climate challenges](https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/)." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/difficulty_bills_levels.jpg" caption="Our [retroharmonization software](https://retroharmonize.dataobservatory.eu/) helps the creation of objective and comparable indicators about how musicians [make a living](https://data.music.dataobservatory.eu/music-economy.html#supply), or how people think about [climate challenges](https://greendeal.dataobservatory.eu/post/2021-04-23-belgium-flood-insurance/)." numbered="true" >}}
 
 I decided to participate in this challenge because I love how data is a secret weapon that anyone can use to re-balance the interests of creators, distributors, and consumers.
 
@@ -47,7 +47,7 @@ I decided to participate in this challenge because I love how data is a secret w
 
 This is a little silly but very recently I watched the 101 Dalmatians movie. After watching the movie, I was curious to see if there was a correlation between the release of the movie and the number of Dalmations adopted afterwards. 101 Dalmatians was released in 1985 and 1991 which made thousands of families (in the U.S.) want to adopt one. The [American Kennel Club](https://www.akc.org/) reported that the annual number of Dalmatian puppies registered skyrocketed from 8,170 animals to 42,816.
 
-{{< figure src="/media/img/blogposts_2021/loan-7gG_OG9w4Ds-unsplash.jpg" caption="Photo: John o' Groats, [Unsplash license](https://unsplash.com/license)." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/loan-7gG_OG9w4Ds-unsplash.jpg" caption="Photo: John o' Groats, [Unsplash license](https://unsplash.com/license)." numbered="true" >}}
 
 This information is interesting because it validates the idea of how culture influences consumer behavior. I think it’s really cool that we can measure cultural collisions and how it impacts the way we act, think, and respond.
 
@@ -57,7 +57,7 @@ I believe that people, in general, appreciate and understand the importance of d
 
 However, I feel more people are open to the idea of using data and understand the value of leveraging data to share objective truths. Something that our automated data observatories can do is to provide more opportunities to educate and train data admirers that data is not scary, that it is accessible, and it is here to help uncover insights that can’t be immediately seen.
 
-{{< figure src="/media/img/observatory_screenshots/greendeal_and_zenodo.png" caption="Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team), or share your data in our public repository[Green Deal Data Observatory on Zenodo](https://zenodo.org/communities/greendeal_observatory/)" numbered="true" >}}
+{{< figure src="/img/observatory_screenshots/greendeal_and_zenodo.png" caption="Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team), or share your data in our public repository[Green Deal Data Observatory on Zenodo](https://zenodo.org/communities/greendeal_observatory/)" numbered="true" >}}
 
 ## Join us
 

@@ -75,7 +75,7 @@ that aggregates the data on regional levels.
     panel <- readRDS((file.path(data_raw_dir, "climate-panel.rds")))
 
     climate_data_geocode <-  panel %>%
-      mutate ( year = lubridate::year(date_of_interview)) %>%
+      mutate ( year:  lubridate::year(date_of_interview)) %>%
       recode_nuts()
 
 Let’s join the air pollution data and join it by corrected geocodes:
@@ -83,17 +83,17 @@ Let’s join the air pollution data and join it by corrected geocodes:
     load(file.path("data", "air_pollutants.rda")) ## good practice to use system-independent file.path
 
     climate_awareness_air <- climate_data_geocode %>%
-      rename ( region_nuts_codes  = .data$code_2016) %>%
-      left_join ( air_pollutants, by = "region_nuts_codes" ) %>%
+      rename ( region_nuts_codes :  .data$code_2016) %>%
+      left_join ( air_pollutants, by:  "region_nuts_codes" ) %>%
       select ( -all_of(c("w1", "wex", "date_of_interview", 
                          "typology", "typology_change", "geo", "region"))) %>%
       mutate (
         # remove special labels and create NA_numeric_ 
-        age_education = retroharmonize::as_numeric(age_education)) %>%
+        age_education:  retroharmonize::as_numeric(age_education)) %>%
       mutate_if ( is.character, as.factor) %>%
       mutate ( 
         # we only have responses from 4 years, and this should be treated as a categorical variable
-        year = as.factor(year) 
+        year:  as.factor(year) 
         ) %>%
       filter ( complete.cases(.) ) 
 
@@ -206,21 +206,21 @@ climate change as the most important global problem in Europe.
     fit <- rpart(as.factor(serious_world_problems_first) ~ .,
        method="class", data=climate_awareness_air %>%
          select ( - all_of(c("rowid", "region_nuts_codes"))), 
-       control = rpart.control(cp = 0.005))
+       control:  rpart.control(cp:  0.005))
 
     printcp(fit) # display the results
 
     ## 
     ## Classification tree:
-    ## rpart(formula = as.factor(serious_world_problems_first) ~ ., 
-    ##     data = climate_awareness_air %>% select(-all_of(c("rowid", 
-    ##         "region_nuts_codes"))), method = "class", control = rpart.control(cp = 0.005))
+    ## rpart(formula:  as.factor(serious_world_problems_first) ~ ., 
+    ##     data:  climate_awareness_air %>% select(-all_of(c("rowid", 
+    ##         "region_nuts_codes"))), method:  "class", control:  rpart.control(cp:  0.005))
     ## 
     ## Variables actually used in tree construction:
     ## [1] age_education                         isocntry                             
     ## [3] serious_world_problems_climate_change year                                 
     ## 
-    ## Root node error: 12817/75086 = 0.1707
+    ## Root node error: 12817/75086:  0.1707
     ## 
     ## n= 75086 
     ## 
@@ -236,9 +236,9 @@ climate change as the most important global problem in Europe.
     summary(fit) # detailed summary of splits
 
     ## Call:
-    ## rpart(formula = as.factor(serious_world_problems_first) ~ ., 
-    ##     data = climate_awareness_air %>% select(-all_of(c("rowid", 
-    ##         "region_nuts_codes"))), method = "class", control = rpart.control(cp = 0.005))
+    ## rpart(formula:  as.factor(serious_world_problems_first) ~ ., 
+    ##     data:  climate_awareness_air %>% select(-all_of(c("rowid", 
+    ##         "region_nuts_codes"))), method:  "class", control:  rpart.control(cp:  0.005))
     ##   n= 75086 
     ## 
     ##            CP nsplit rel error    xerror        xstd
@@ -261,7 +261,7 @@ climate change as the most important global problem in Europe.
     ##                                     1 
     ## 
     ## Node number 1: 75086 observations,    complexity param=0.02405659
-    ##   predicted class=0  expected loss=0.1706976  P(node) =1
+    ##   predicted class=0  expected loss=0.1706976  P(node): 1
     ##     class counts: 62269 12817
     ##    probabilities: 0.829 0.171 
     ##   left son=2 (25229 obs) right son=3 (49857 obs)
@@ -276,12 +276,12 @@ climate change as the most important global problem in Europe.
     ##       pm10          < 7.491315     to the left,  agree=0.664, adj=0, (0 split)
     ## 
     ## Node number 2: 25229 observations
-    ##   predicted class=0  expected loss=0  P(node) =0.3360014
+    ##   predicted class=0  expected loss=0  P(node): 0.3360014
     ##     class counts: 25229     0
     ##    probabilities: 1.000 0.000 
     ## 
     ## Node number 3: 49857 observations,    complexity param=0.02405659
-    ##   predicted class=0  expected loss=0.2570752  P(node) =0.6639986
+    ##   predicted class=0  expected loss=0.2570752  P(node): 0.6639986
     ##     class counts: 37040 12817
     ##    probabilities: 0.743 0.257 
     ##   left son=6 (34631 obs) right son=7 (15226 obs)
@@ -299,12 +299,12 @@ climate change as the most important global problem in Europe.
     ##       pm10         < 25.31211     to the right, agree=0.718, adj=0.076, (0 split)
     ## 
     ## Node number 6: 34631 observations
-    ##   predicted class=0  expected loss=0.1769802  P(node) =0.4612178
+    ##   predicted class=0  expected loss=0.1769802  P(node): 0.4612178
     ##     class counts: 28502  6129
     ##    probabilities: 0.823 0.177 
     ## 
     ## Node number 7: 15226 observations,    complexity param=0.02405659
-    ##   predicted class=0  expected loss=0.4392487  P(node) =0.2027808
+    ##   predicted class=0  expected loss=0.4392487  P(node): 0.2027808
     ##     class counts:  8538  6688
     ##    probabilities: 0.561 0.439 
     ##   left son=14 (11607 obs) right son=15 (3619 obs)
@@ -322,7 +322,7 @@ climate change as the most important global problem in Europe.
     ##       age_education splits as  ----LLLLLL-LLLLLLLRLR-LRRLRRRRRR-RRRRLLLLLR-LRLRLLRRLL-LLRLLR-LLR-RRLLLLL-----RR-----R-L, agree=0.779, adj=0.071, (0 split)
     ## 
     ## Node number 14: 11607 observations,    complexity param=0.008270266
-    ##   predicted class=0  expected loss=0.3804601  P(node) =0.1545827
+    ##   predicted class=0  expected loss=0.3804601  P(node): 0.1545827
     ##     class counts:  7191  4416
     ##    probabilities: 0.620 0.380 
     ##   left son=28 (7462 obs) right son=29 (4145 obs)
@@ -340,17 +340,17 @@ climate change as the most important global problem in Europe.
     ##       age_exact                        < 23.5         to the right, agree=0.676, adj=0.094, (0 split)
     ## 
     ## Node number 15: 3619 observations
-    ##   predicted class=1  expected loss=0.3722023  P(node) =0.04819807
+    ##   predicted class=1  expected loss=0.3722023  P(node): 0.04819807
     ##     class counts:  1347  2272
     ##    probabilities: 0.372 0.628 
     ## 
     ## Node number 28: 7462 observations
-    ##   predicted class=0  expected loss=0.326052  P(node) =0.09937938
+    ##   predicted class=0  expected loss=0.326052  P(node): 0.09937938
     ##     class counts:  5029  2433
     ##    probabilities: 0.674 0.326 
     ## 
     ## Node number 29: 4145 observations,    complexity param=0.008270266
-    ##   predicted class=0  expected loss=0.4784077  P(node) =0.05520337
+    ##   predicted class=0  expected loss=0.4784077  P(node): 0.05520337
     ##     class counts:  2162  1983
     ##    probabilities: 0.522 0.478 
     ##   left son=58 (2573 obs) right son=59 (1572 obs)
@@ -368,12 +368,12 @@ climate change as the most important global problem in Europe.
     ##       o3                < 83.06345     to the right, agree=0.650, adj=0.076, (0 split)
     ## 
     ## Node number 58: 2573 observations
-    ##   predicted class=0  expected loss=0.4240187  P(node) =0.03426737
+    ##   predicted class=0  expected loss=0.4240187  P(node): 0.03426737
     ##     class counts:  1482  1091
     ##    probabilities: 0.576 0.424 
     ## 
     ## Node number 59: 1572 observations
-    ##   predicted class=1  expected loss=0.43257  P(node) =0.02093599
+    ##   predicted class=1  expected loss=0.43257  P(node): 0.02093599
     ##     class counts:   680   892
     ##    probabilities: 0.433 0.567
 
@@ -382,12 +382,12 @@ climate change as the most important global problem in Europe.
        main="Classification Tree: Climate Change Is The Most Serious Threat")
     text(fit, use.n=TRUE, all=TRUE, cex=.8)
 
-    ## Warning in labels.rpart(x, minlength = minlength): more than 52 levels in a
+    ## Warning in labels.rpart(x, minlength:  minlength): more than 52 levels in a
     ## predicting factor, truncated for printout
 
 !["predicting factor, truncated for printout"](rpart-2.png)
 
-    saveRDS ( climate_awareness_air , file.path(tempdir(), "climate_panel_recoded.rds"), version = 2)
+    saveRDS ( climate_awareness_air , file.path(tempdir(), "climate_panel_recoded.rds"), version:  2)
 
     # not evaluated
-    saveRDS( climate_awareness_air, file = file.path("data-raw", "climate-panel_recoded.rds"))
+    saveRDS( climate_awareness_air, file:  file.path("data-raw", "climate-panel_recoded.rds"))

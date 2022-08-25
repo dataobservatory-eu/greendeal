@@ -1,31 +1,31 @@
-+++
-title = "The Green Deal Data Observatory is Contesting the EU Datathon 2021 Prize"
-subtitle = "Reprex and Open Collaboration Partners are Contesting all Three Challenges of the Eu Datathon 2021 Prize"
-date = 2021-05-21T20:00:00
-lastmod = 2021-05-26T15:00:00
-draft = false
+---
+title:  "The Green Deal Data Observatory is Contesting the EU Datathon 2021 Prize"
+subtitle:  "Reprex and Open Collaboration Partners are Contesting all Three Challenges of the Eu Datathon 2021 Prize"
+date:  2021-05-21T20:00:00
+lastmod:  2021-05-26T15:00:00
+draft:  false
 
-authors = ["Daniel Antal", "Andrés García Molina"]
+authors:  ["Daniel Antal", "Andrés García Molina"]
 
-tags = ["open-data", "open-science", "data-altruism", "data-observatory", "datathon", "competition"]
+tags:  ["open-data", "open-science", "data-altruism", "data-observatory", "datathon", "competition"]
 
-summary = "Reprex, a Dutch start-up enterprise formed to utilize open source software and open data in open collaboration with its partners is contesting all three challenges of the EU Datathon 2021 Prizes."
+summary:  "Reprex, a Dutch start-up enterprise formed to utilize open source software and open data in open collaboration with its partners is contesting all three challenges of the EU Datathon 2021 Prizes."
 
-projects = ["eu-datathon_2021"]
+projects:  ["eu-datathon_2021"]
 
 # Featured image
-[image]
+image:
   # Caption (optional)
-  caption = ""
+  caption:  ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point:  "Center"
 
   # Show image only in page previews?
-  preview_only = true
+  preview_only:  true
 
-+++
+---
 
 Reprex, a Dutch start-up enterprise formed to utilize open source software and open data, is looking for partners in an agile, open collaboration to win at least one of the three EU Datathon Prizes. We are looking for policy partners, academic partners and a consultancy partner. Our project is based on agile, open collaboration with three types of contributors.
 
@@ -58,7 +58,7 @@ We aim to win at least one first prize in the EU Datathon 2021. We are contestin
 
 ## Challenge 1: A European Grean Deel
 
-{{< figure src="/media/img/observatory_screenshots/GD_Observatory_opening_page.png" caption="Our Green Deal Data Observatory connects socio-economic and environmental data to help understanding and combating climate change." numbered="true" >}}
+{{< figure src="/img/observatory_screenshots/GD_Observatory_opening_page.png" caption="Our Green Deal Data Observatory connects socio-economic and environmental data to help understanding and combating climate change." numbered="true" >}}
 
 Challenge 1: [A European Green Deal](https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en), with a particular focus on the [The European Climate Pact](https://ec.europa.eu/commission/presscorner/detail/en/ip_20_2323), the [Organic Action Plan](https://ec.europa.eu/info/food-farming-fisheries/farming/organic-farming/organic-action-plan_en), and the [New European Bauhaus](https://ec.europa.eu/commission/presscorner/detail/en/IP_21_111), i.e., mitigation strategies.
 
@@ -85,7 +85,7 @@ As open science principles gain increased acceptance, scientific researchers are
 
 The EU, the OECD, and UN institutions run around 100 data collection programs, so-called ‘data observatories’ that more or less avoid touching this data, and buy proprietary data instead. Annually, each observatory spends between 50 thousand and 3 million EUR on collecting untidy and proprietary data of inconsistent quality, while never even considering open data.
 
-{{< figure src="/media/img/observatory_screenshots/observatory_collage_16x9_800.png" caption="Our automated data observatories are modern reimaginations of the existing observatories that do not use open data and research automation." numbered="true" >}}
+{{< figure src="/img/observatory_screenshots/observatory_collage_16x9_800.png" caption="Our automated data observatories are modern reimaginations of the existing observatories that do not use open data and research automation." numbered="true" >}}
 
 The problem with the current EU data strategy is that while it produces enormous quantities of valuable open data, in the absence of common basic data science and documentation principles, it seems often cheaper to create new data than to put the existing open data into shape.
 

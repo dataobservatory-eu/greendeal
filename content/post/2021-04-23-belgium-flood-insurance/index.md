@@ -78,7 +78,7 @@ of drought risk - as measured by a climate indicator known as the
 index](http://sac.csic.es/spei/map/maps.html).
 
 
-{{< figure src="/img/flood-risk/belgium_spei_2018.png" caption="Actual drying soil." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/belgium_spei_2018.png" caption="Actual drying soil." numbered="true" >}}
 
 This SPEI index, measured as a standardized variate, shows the
 deviations of the current climatic balance (precipitation minus
@@ -117,7 +117,7 @@ Of note is that concern for climate change effects follows regional,
 linguistic and other patterns. The map in particular suggests the
 Belgian provinces as markers for awareness.
 
-{{< figure src="/img/flood-risk/belgium_response_2018.png" caption="Perception of likely drought." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/belgium_response_2018.png" caption="Perception of likely drought." numbered="true" >}}
 
 ## Financial Capacity to Pay for Insurance
 
@@ -129,7 +129,7 @@ looks for local, regional or national mitigation strategies, the
 income/tax base might be an appropriate benchmark to test for financial
 capacity.
 
-{{< figure src="/img/flood-risk/belgium_income_2018.png" caption="Financial capacity to mitigate drought risk." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/belgium_income_2018.png" caption="Financial capacity to mitigate drought risk." numbered="true" >}}
 
 The match between the (inverted) SPEI and total net income is less than
 perfect. Some of the areas most at risk coincide with the highest-income
@@ -141,7 +141,7 @@ the problem are again only weakly correlated.^[2]
 
 Let’s have a look at the variables on `NUTS3` level:
 
-{{< figure src="/img/flood-risk/var-cor-1.png" caption="Correlation of the variables." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/var-cor-1.png" caption="Correlation of the variables." numbered="true" >}}
 
 -   `Average SPEI`, which is a measure of increasing humidity, is
     negatively correlated with `dry` that we defined as `-1 x avg_spei`.
@@ -162,7 +162,7 @@ Let’s have a look at the variables on `NUTS3` level:
 
 The same on municipality (local administrative unit) level:
 
-{{< figure src="/img/flood-risk/cor-lau-1.png" caption="Correlation on the level of municipalities." numbered="true" >}}
+{{< figure src="/img/blogposts_2021/cor-lau-1.png" caption="Correlation on the level of municipalities." numbered="true" >}}
 
 The correlations with opinion polling data are a little bit distorted,
 because the data is on `NUTS2`, and to bring it down to `NUTS3` or `LAU`

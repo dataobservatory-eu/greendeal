@@ -1,36 +1,36 @@
-+++
-title = "How We Add Value to Public Data With Imputation and Forecasting?"
-subtitle = ""
-date = 2021-11-08T10:00:00+01:00
-lastmod = 2021-11-09T11:00:00+01:00
-draft = false
+---
+title:  "How We Add Value to Public Data With Imputation and Forecasting?"
+subtitle:  ""
+date:  2021-11-08T10:00:00+01:00
+lastmod:  2021-11-09T11:00:00+01:00
+draft:  false
 
-authors = ["daniel_antal"]
+authors:  ["daniel_antal"]
 
-tags = ["music","data-as-service", "API", "metadata", "forecasting", "missing data"]
+tags:  ["music","data-as-service", "API", "metadata", "forecasting", "missing data"]
 
-summary = "Public data sources are often plagued with missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information which will destroy your beautiful visualization or stop your application from working. In this example we show how we increase the usable subset of a public dataset by 66.7%, rendering useful what would otherwise have been a deal-breaker in panel regressions or machine learning applications."
+summary:  "Public data sources are often plagued with missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information which will destroy your beautiful visualization or stop your application from working. In this example we show how we increase the usable subset of a public dataset by 66.7%, rendering useful what would otherwise have been a deal-breaker in panel regressions or machine learning applications."
 
-projects = ""
+projects:  ""
 
 # Featured image
-[image]
+image:
   # Caption (optional)
-  caption = ""
+  caption:  ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point:  "Center"
 
   # Show image only in page previews?
-  preview_only = true
+  preview_only:  true
 
-+++
+---
 
 
 Public data sources are often plagued by missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information. This approach of ignoring or dropping missing values will not be feasible or robust when you want to make a beautiful visualization, or use data in a business forecasting model, a machine learning (AI) applicaton, or a more complex scientific model. All of the above require complete datasets, and naively discarding missing data points amounts to an excessive waste of information. In this example we are continuing the example a not-so-easy to find public dataset.
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited.png" caption="In the previous blogpost we explained how we added value with documenting the data following the *FAIR* principle and with the professional curatorial work of placing the data in context, and linking it to other information sources that are not depending on the English language, and can connect our radio dataset to other data, books, publications, regardless if they are described in English, or in German, or Slovak. Photo: Atmospheric Research Observatory, South Pole, Antarctica Photo: [NOAA](https://unsplash.com/photos/WWVD4wXRX38)." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2021/noaa-WWVD4wXRX38-unsplash-edited.png" caption="In the previous blogpost we explained how we added value with documenting the data following the *FAIR* principle and with the professional curatorial work of placing the data in context, and linking it to other information sources that are not depending on the English language, and can connect our radio dataset to other data, books, publications, regardless if they are described in English, or in German, or Slovak. Photo: Atmospheric Research Observatory, South Pole, Antarctica Photo: [NOAA](https://unsplash.com/photos/WWVD4wXRX38)." numbered="false" >}}</td>
 
 Completing missing datapoints requires statistical production information (why might the data be missing?) and data science knowhow (how to impute the missing value.) If you do not have a good statistician or data scientist in your team, you will need high-quality, complete datasets. This is what our automated data observatories provide.
 
@@ -41,7 +41,7 @@ International organizations offer many statistical products, but usually they ar
 Some countries have only recently started providing data to the Eurostat umbrella organization, and it is likely that you will find few datapoints for North Macedonia or Bosnia-Herzegovina. Other countries provide data with some delay, and the last one or two years are missing. And there are gaps in some countries’ data, too.
 
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/gbard_environment_expenditure_plot.png" caption="See the authoritative copy of the [dataset](https://zenodo.org/record/4775787#.YYqevmDMLIU)." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2021/gbard_environment_expenditure_plot.png" caption="See the authoritative copy of the [dataset](https://zenodo.org/record/4775787#.YYqevmDMLIU)." numbered="false" >}}</td>
 
 This is a headache if you want to use the data in some machine learning application or in a multiple or panel regression model. You can, of course, discard countries or years where you do not have full data coverage, but this approach usually wastes too much information--if you work with 12 years, and only one data point is available, you would be discarding an entire country’s 11-years’ worth of data. Another option is to estimate the values, or otherwise impute the missing data, when this is possible with reasonable precision. This is where things get tricky, and you will likely need a statistician or a data scientist onboard.
 
@@ -78,7 +78,7 @@ Our indicators come with standardized codebooks that do not only contain the des
 
 If you work in an academic institution, in an NGO or a consultancy, you can never be sure who downloaded the [GBARD by socioeconomic objectives (NABS 2007)](http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=gba_nabsfin07&lang=en) Eurostat folder from Eurostat. Did they modify the dataset? Did they already make corrections with the missing data? What method did they use? To prevent many potential problems, you will likely download it again, and again, and again...
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/Sisyphus_Bodleian_Library.png" caption="See our [The Data Sisyphus](https://reprex.nl/post/2021-07-08-data-sisyphus/) blogpost." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2021/Sisyphus_Bodleian_Library.png" caption="See our [The Data Sisyphus](https://reprex.nl/post/2021-07-08-data-sisyphus/) blogpost." numbered="false" >}}</td>
 
 We have a better solution. You can always rely on our API to import directly the latest, best data, but if you want to be sure, you can use our [regular backups](https://zenodo.org/record/5652118#.YYhGOGDMLIU) on Zenodo. Zenodo is an open science repository managed by CERN and supported by the European Union. On Zenodo, you can find an authoritative copy of our indicator (and its previous versions) with a digital object identifier, in this case, [10.5281/zenodo.5661169](https://doi.org/10.5281/zenodo.5661169). These datasets will be preserved for decades, and nobody can manipulate them. You cannot accidentally overwrite them, and we have no backdoor to modify them.
 

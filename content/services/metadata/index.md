@@ -72,7 +72,6 @@ In other words: very easy to import into your databases, or join with other data
 
 ## What happened with the data before?
 
-
 - [x] We are creating Codebooks that are following the SDMX statistical metadata codelists, and resemble the SMDX concepts used by international statistical agencies. (See more technical information [here](https://r.dataobservatory.eu/articles/codebook.html).)
 
 Small organizations often cannot afford to have data engineers and data scientists on staff, and they employ analysts who work with Excel, OpenOffice, PowerBI, SPSS or Stata.  The problem with these applications is that they often require the user to manually adjust the data, with keyboard entries or mouse clicks.  Furthermore, they do not provide a precise logging of the data processing, manipulation history.

@@ -52,7 +52,7 @@ Please read the [entire covenant here](https://www.contributor-covenant.org/vers
 - [x] Please send us one professional portrait of at least 400x400 pixels. 
 
 
-## Wowchemy Templates {#wochemy}
+## Wowchemy Hugo Website Templates
 
 The Reprex website is built with the [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic) that empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
 

@@ -6,17 +6,16 @@ subtitle: Harmonizing survey variables and survey metadata.
 # Summary for listings and search engines
 summary: In this example we are working with data from surveys that were ex ante harmonized to a certain degree – in our tutorials we are choosing questions that were asked in the same way in many natural languages.  For example, you can compare what percentage of the European people in various countries, provinces and regions thought climate change was a serious world problem back in 2013, 2015, 2017 and 2019.
 
+doi: 10.5281/zenodo.5781724
 # Link this post with a project
-projects: []
+projects: 
+ - Eviota
 
 # Date published
 date: "2021-03-05T00:00:00Z"
 
 # Date updated
-lastmod: "2021-03-05T00:00:00Z"
-
-# Is this an unpublished draft?
-draft: false
+lastmod: "2022-08-30T13:14:00+02:00"
 
 # Show this page in the Featured widget?
 featured: false
@@ -33,9 +32,10 @@ authors:
 - daniel_antal
 
 tags:
-- surveys
-- climate change
-- climate awareness
+- Surveys
+- Climate change
+- Climate awareness
+- R
 
 categories:
 - R-bloggers
@@ -43,9 +43,18 @@ categories:
 
 Retrospective survey harmonization comes with many challenges, as we
 have shown in the
-[introduction](http://netzero.dataobservatory.eu/post/2021-03-04_retroharmonize_intro/)
+[introduction](/post/2021-03-04_retroharmonize_intro/)
 to this tutorial case study. In this example, we will work with
 Eurobarometer’s data.
+
+{{% callout note %}}
+This code tutorial is not outdated, but the [retroharmonize](https://retroharmonize.dataobservatory.eu/) R package has a new (development) release with more featues.
+{{% /callout %}}
+
+{{< spoiler text="Click to expand table of contents of the post" >}}
+{{<toc>}}
+{{< /spoiler >}}
+
 
 Please use the development version of
 [retroharmonize](https://retroharmonize.dataobservatory.eu/):

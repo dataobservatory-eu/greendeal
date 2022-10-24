@@ -32,8 +32,9 @@ authors:
 - daniel_antal
 
 tags:
-- retrospective-harmonization
-- surveys
+- R
+- Surveys
+- Survey harmonization
 
 categories:
 - R-bloggers

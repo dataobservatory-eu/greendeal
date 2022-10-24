@@ -3,27 +3,29 @@ title:  "Analyze Locally, Act Globally: New regions R Package Release"
 subtitle:  "Maping Regional Data, Maping Metadata Problems"
 date:  2021-06-16T12:00:00
 lastmod:  2021-06-16T12:00:00
-draft:  false
+doi: doi.org/10.5281
 
 authors:  ["daniel_antal", "rOpenGov", "leo_lahti", "kasia_kulma"]
 
-tags:  ["Open data", "Open science", "Regional data", "R", "Data collection"]
-
+tags:  
+ - Open data
+ - Open science
+ - Regional data
+ - R
+ - Small area statistics
+ 
 summary:  "There are numerous advantages of switching from a national level of the analysis to a sub-national level comes with a huge price in data processing, validation and imputation, and the regions package aims to help this process."
 
-projects:  ["eu-datathon_2021"]
+projects:  ""
 
 # Featured image
 image:
-  # Caption (optional)
-  caption:  "Annette Wong"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  caption:  ""
   focal_point:  "Center"
-
-  # Show image only in page previews?
   preview_only:  true
+
+categories:
+- R-bloggers
 
 ---
 
@@ -34,6 +36,10 @@ The new version of our [rOpenGov](https://ropengov.org/) R package
 CRAN. This package is one of the engines of our experimental open
 data-as-service [Green Deal Data Observatory](https://greendeal.dataobservatory.eu/), [Economy Data Observatory](https://economy.dataobservatory.eu/), [Digital Music Observatory](https://music.dataobservatory.eu/) prototypes, which aim to
 place open data packages into open-source applications.
+
+{{< spoiler text="Click to expand table of contents of the post" >}}
+{{<toc>}}
+{{< /spoiler >}}
 
 In international comparison the use of nationally aggregated indicators
 often have many disadvantages: they inhibit very different levels of
@@ -109,6 +115,8 @@ Download the {{< staticref "/media/bibliography/cite-regions.bib" "newtab" >}}Bi
 
 ## Join us
 
-*Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team). More interested in antitrust, innovation policy or economic impact analysis? Try our [Economy Data Observatory](https://economy.dataobservatory.eu/#contributors) team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our [Digital Music Observatory](https://music.dataobservatory.eu/#contributors) team!*
+{{< spoiler text="Join our Green Deal Data Observatory collaboration!" >}}
+*Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team). More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our [Economy Music Observatory](https://economy.dataobservatory.eu/#contributors) team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our [Digital Music Observatory](https://music.dataobservatory.eu/#contributors) team!*
+{{< /spoiler >}}
 
 [![Follow GreenDealObs](https://img.shields.io/twitter/follow/GreenDealObs.svg?style=social)](https://twitter.com/intent/follow?screen_name=GreenDealObs)

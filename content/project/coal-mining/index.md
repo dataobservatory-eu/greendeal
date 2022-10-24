@@ -2,7 +2,9 @@
 title: Make Coal History
 summary: Mapping coal mining communities
 tags:
-- coal-mining
+- Make coal history
+- Coal mining
+- Political roadblocks
 date: "2021-03-16T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -11,7 +11,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Competition data curator
+role: Environmental Disclosures, Evidence, and Fight Against Greenwashing
 
 # Organizations/Affiliations
 organizations:
@@ -56,7 +56,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "#contact" # For a direct email link, use "mailto:domotorfyborbala@gmail.com".
+  link: "#contact" # 
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/borbala-domotorfy/
@@ -69,8 +69,6 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-4054-5585  
-
-
 
 # Enter email to display Gravatar (not needed)
 email: ""

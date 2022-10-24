@@ -2,29 +2,33 @@
 title:  "Economic and Environment Impact Analysis, Automated for Data-as-Service"
 subtitle:  "Our new open source release will help with automated economic impact and environmental impact analysis."
 date:  2021-06-03T16:00:00
-lastmod:  2021-06-03T16:00:00
+lastmod:  2022-08-30T13:01:00+02:00
 draft:  false
+
+doi: 10.5281/zenodo.6033771
 
 authors:  ["Daniel Antal"]
 
-tags:  ["Open data", "Open science", "iotables", "datathon", "economic impact analysis", "environmental impact analysis"]
+tags:  
+ - Open data
+ - Open science
+ - iotables
+ - Economic Impact Analysis
+ - Enviromental Impact Analysis
 
 summary:  "rOpenGov, Reprex, and other open collaboration partners teamed up to build on our expertise of open source statistical software development further: we want to create a technologically and financially feasible data-as-service to put our reproducible research products into wider user for the business analyst, scientific researcher and evidence-based policy design communities. Our new release will help with automated economic impact and environmental impact analysis."
 
-projects:  ["eu-datathon_2021"]
+projects:  
+ - Eviota
 
 # Featured image
 image:
-  # Caption (optional)
   caption:  ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point:  "Center"
-
-  # Show image only in page previews?
   preview_only:  true
 
+categories:
+- R-bloggers
 ---
 
 We have released a new version of
@@ -36,6 +40,14 @@ show how each country’s 64 agricultural, industrial, service, and
 sometimes household sectors relate to each other. They are estimated
 from various components of the GDP, tax collection, at least every five
 years.
+
+{{% callout note %}}
+This code tutorial is not outdated, but the [iotables](https://iotables.dataobservatory.eu/) R package has a new release with more environmental impact analysis featues.
+{{% /callout %}}
+
+{{< spoiler text="Click to expand table of contents of the post" >}}
+{{<toc>}}
+{{< /spoiler >}}
 
 SIOTs offer great value to policy-makers and analysts to make more than
 educated guesses on how a million euros, pounds or Czech korunas spent
@@ -60,7 +72,7 @@ is to keep vectors and matrices, which have at least one dimension of
 [eurostat](https://CRAN.R-project.org/package=eurostat) on
 [rOpenGov](http://ropengov.org/)
 
-{{< figure src="/img/package_screenshots/iotables_0_4_5.png" caption="Our iotables package creates direct, indirect effects and multipliers programatically. Our observatory will make those indicators available for all European countries." numbered="true" >}}
+{{< figure src="/img/package_screenshots/iotables_045.png" caption="Our iotables package creates direct, indirect effects and multipliers programatically. Our observatory will make those indicators available for all European countries." numbered="true" >}}
 
 ## Accessing and tidying the data programmatically
 
@@ -122,7 +134,7 @@ advertising in the case of music festivals, if the festivals reopen. The
 forward linkages show how much extra demand this creates for connecting
 services that treat festivals as a ‘supplier’, such as cultural tourism.
 
-## Let’s seen an example
+## Example
 
     ## Downloading employment data from the Eurostat database.
 
@@ -322,4 +334,12 @@ Our [iotables](https://iotables.dataobservatory.eu/) package is one of
 our many open-source building blocks to make open data more accessible
 to all.
 
-*Join our open collaboration Economy Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team). More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our [Economy Music Observatory](https://economy.dataobservatory.eu/#contributors) team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our [Digital Music Observatory](https://music.dataobservatory.eu/#contributors) team!*
+<!---
+recruitment
+-->
+
+{{< spoiler text="Join our Green Deal Data Observatory collaboration!" >}}
+*Join our open collaboration Green Deal Data Observatory team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team). More interested in economic policies, particularly computation antitrust, innovation and small enterprises? Check out our [Economy Music Observatory](https://economy.dataobservatory.eu/#contributors) team! Or your interest lies more in data governance, trustworthy AI and other digital market problems? Check out our [Digital Music Observatory](https://music.dataobservatory.eu/#contributors) team!*
+{{< /spoiler >}}
+
+

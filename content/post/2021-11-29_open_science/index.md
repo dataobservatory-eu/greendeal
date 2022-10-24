@@ -1,9 +1,9 @@
 ---
-title:  ""
+title:  "Open Science"
 subtitle:  "Open Science"
 date:  2021-11-29T09:41:00+01:00
 lastmod:  2021-11-29T09:41:00+01:00
-draft:  false
+draft:  true
 
 authors:  ["daniel_antal"]
 

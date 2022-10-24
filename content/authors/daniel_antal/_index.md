@@ -11,7 +11,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Data Scientist & Founder of the Digital Music Observatory
+role: Data Scientist & Founder of the Green Deal Data Observatory
 
 # Organizations/Affiliations
 organizations:
@@ -23,12 +23,12 @@ organizations:
   url: "https://www.ivir.nl/employee/antaldaniel/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reproducible social science, economics and finance.
+bio: Making big data work for everybody.
 
 topics:
-- Intangible Assets / Royalty Valuation
+- Innovation
 - Open Data
-- Music
+- R programming
 
 education:
   courses:
@@ -47,12 +47,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+#- icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/antaldaniel
+- icon: keybase
   icon_pack: fab
-  link: https://twitter.com/antaldaniel
+  link: https://keybase.io/antaldaniel
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0001-7513-6760
@@ -62,15 +65,13 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/antaldaniel/
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=Is3IOGEAAAAJ&hl=en
-- icon: ssrn
-  icon_pack: ai
-  link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2472686
-- icon: keybase
-  icon_pack: fab
-  link: https://keybase.io/antaldaniel
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.com/citations?user=Is3IOGEAAAAJ&hl=en
+#- icon: ssrn
+#  icon_pack: ai
+#  link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2472686
+
   
 
   
@@ -91,4 +92,4 @@ user_groups:
 
 Daniel Antal is an experienced data scientist, consultant, economist, and the co-founder of [Reprex](https://reprex.nl/), a Netherlands-based startup that brings the benefits of big data to small organizations with shared resources and research automation. He applies data science practice, open-source software development with sound economics and valuation techniques. 
 
-He is also a research affiliate at the [Centre for Competition Policy](https://www.linkedin.com/school/ccpuea/ and at the [Institute for Information Law](https://www.ivir.nl/employee/antaldaniel/) of the University of Amsterdam.
+He is also a research affiliate at the [Centre for Competition Policy](https://www.linkedin.com/school/ccpuea/) and at the [Institute for Information Law](https://www.ivir.nl/employee/antaldaniel/) of the University of Amsterdam.

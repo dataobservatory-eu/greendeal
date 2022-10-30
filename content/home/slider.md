@@ -20,7 +20,7 @@ content:
                 young and old.'
       align: left
       background:
-        position: center
+        position: right
         color: '#555'
         brightness: 0.3
         media: img/blogposts_2022/reprex-talk-to-all-srt.webp

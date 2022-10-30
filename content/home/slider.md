@@ -29,6 +29,36 @@ content:
         icon_pack: fas
         text: Help to Subtitle Our Message
         url: ../post/2022-10-29_reprex-talk-to-all/
+    - title: Search Things Not Strings
+      content: '**A very cold winter is coming to Europe.**</br>
+      [Thermowatt](/authors/thermowatt/) is looking for specific locations in the Hague,
+      then South Holland, then in the Benelux, then in the EU, to pump out the energy from lukewarm wastewater, protecting both your energy costs, the climate, and the       biodiversity of natural water bodies.</br>'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.3
+        media: img/blogposts_2022/4249419898_2ed064f29c_o.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Blog: Open Linked Data & Semantic Search for Buildings"
+        url: ../post/2022-10-29_reprex-talk-to-all/
+    - title: Link Unconnected, Hard-to-use Data
+      content: '**A very cold winter is coming to Europe.**</br>
+      [Thermowatt](/authors/thermowatt/) is looking for specific locations in the Hague,
+      then South Holland, then in the Benelux, then in the EU, to pump out the energy from lukewarm wastewater, protecting both your energy costs, the climate, and the       biodiversity of natural water bodies.</br>'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.5
+        media: img/blogposts_2021/flood_in_belgium.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Blog: Connect Hydrological, Public Finance, and Opinion Poll Data"
+        url: ..post/2021-04-23-belgium-flood-insurance/
     - title: 
       content:  </br></br></br></br></br></br></br></br></br></br></br></br>
       align: left

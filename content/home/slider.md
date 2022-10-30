@@ -66,7 +66,7 @@ content:
         position: center
         color: '#666'
         brightness: 0.7
-        media: slides/tour/big_data_creates_inequalities_centered.webp
+        media: slides/slider/big_data_creates_inequalities_centered.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
@@ -79,7 +79,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: slides/tour/black_reprex_r_packages.webp
+        media: slides/slider/black_reprex_r_packages.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
@@ -94,20 +94,21 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: slides/tour/Reprex-NLAIC-2022-background.webp
+        media: slides/slider/Reprex-NLAIC-2022-background.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
         text: Check Out Our Observatories!
         url: ../#observatories  
     - title: Learn R With Our Team
-      content: 'Participating in open source is often a highly collaborative experience. We’re encouraged to create in public view, and we’re incentivize to welcome contributions of all kinds from people around the world. This makes the practice of open source as much social as it is technical. [&#9755; slides](http://localhost:4321/slides/learnr-with-reprex)'
-      align: right
+      content: 'Participating in open source is often a highly collaborative experience. We’re encouraged to create in public view, and we’re incentivize to welcome contributions of all kinds from people around the world. This makes the practice of open source as much social as it is technical. [&#9755; slides](/slides/learnr-with-reprex)'
+      align: left
+      color: black
       background:
         position: center
         color: '#333'
-        brightness: 0.5
-        media: welcome.jpg
+        brightness: 0.3
+        media: slides/slider/rmd_example.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
@@ -124,7 +125,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.3
-        media: slides/tour/DAntal_ImpacCity_PAARD_2_20221028_4x6.webp
+        media: slides/slider/DAntal_ImpacCity_PAARD_2_20221028_4x6.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
@@ -137,7 +138,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.5
-        media: slides/tour/hague_innovators_award_2022.webp
+        media: slides/slider/hague_innovators_award_2022.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
@@ -150,7 +151,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: slides/tour/reprex-background.webp
+        media: slides/slider/reprex-background.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas

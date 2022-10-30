@@ -69,7 +69,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- service development team
+- alumni
 ---
 
 Robin is a freelancer working on projects using emerging technologies. Main areas of experties are Business Development, Project Management, Innovation, Governance and Corporate culture. Recent interest: Exponential technologies, Exponential business.

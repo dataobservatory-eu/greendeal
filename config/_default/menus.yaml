@@ -5,21 +5,20 @@
 
 main:
   - name: Home
-    url: '#about'
     weight: 10
     identifier: Home
   - name: About
     url: '#about'
-    weight: 10
+    weight: 11
+    parent: Home
+  - name: "In 1 minute"
+    url: '#slider'
+    weight: 12
     parent: Home
   - name: News
     url: 
     weight: 20
     identifier: News
-  - name: "In 1 minute"
-    url: '#slider'
-    weight: 21
-    parent: News
   - name: Blog
     url: '#posts'
     weight: 22

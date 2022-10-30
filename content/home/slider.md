@@ -16,8 +16,7 @@ design:
 content:
   slides:
     - title: Reprex Wants to Talk to All in the Hague
-      content: 'Help to translate</br> our message for all,</br>
-                young and old.'
+      content: 'The message is the message! We are an ethical data and AI company, and one of our topics is detecing if algorithms are biased towards the English language speakers. We want to teach the computer to understand small languages, and of course, everyone, who is under-represented in data: womxn, former colonial nations.'
       align: left
       background:
         position: right
@@ -28,7 +27,7 @@ content:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
         text: Help to Subtitle Our Message
-        url: ../post/2022-10-29_reprex-talk-to-all/
+        url: https://reprex.nl/post/2022-10-29_reprex-talk-to-all/
     - title: Search Things Not Strings
       content: '**A very cold winter is coming to Europe.**</br>
       [Thermowatt](/authors/thermowatt/) is looking for specific locations in the Hague,
@@ -43,11 +42,15 @@ content:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
         text: "Blog: Open Linked Data & Semantic Search for Buildings"
-        url: ../post/2022-10-29_reprex-talk-to-all/
+        url: https://greendeal.dataobservatory.eu/post/2022-10-24_thermowatt/
     - title: Link Unconnected, Hard-to-use Data
-      content: '**A very cold winter is coming to Europe.**</br>
-      [Thermowatt](/authors/thermowatt/) is looking for specific locations in the Hague,
-      then South Holland, then in the Benelux, then in the EU, to pump out the energy from lukewarm wastewater, protecting both your energy costs, the climate, and the       biodiversity of natural water bodies.</br>'
+      content: 'Just weeks before the tragic, but sadly predictable Belgian floods
+      we connected some open, but unprocessed opinion poll data about the perception of 
+      flood risk, hydrological data about the actual risk of flood, and public finance 
+      data in the extremely decentralized country.</br>
+      </br>
+      The data has been there, but it was not in a form that public policymakers,
+      insurers of NGOs could have used directly.'
       align: left
       background:
         position: center
@@ -58,7 +61,24 @@ content:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
         text: "Blog: Connect Hydrological, Public Finance, and Opinion Poll Data"
-        url: ..post/2021-04-23-belgium-flood-insurance/
+        url: ../post/2021-04-23-belgium-flood-insurance/
+    - title: "Open Data: Gold Without Rush"
+      content: 'When you need data from the past, it is too late to start 
+      collecting it. If you need satellite data, it is unlikely that you
+      can have your own sensors in the space. Working with open data is 
+      sometimes cheaper than with market vendor data. But most open data is 
+      not processed. We made the investment to clean it for you.'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.3
+        media: img/blogposts_2021/Gold_panning_at_Bonanza_Creek_4x6.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Blog: Why is it so hard to work with it?"
+        url: ../post/2021-06-18-gold-without-rush/
     - title: 
       content:  </br></br></br></br></br></br></br></br></br></br></br></br>
       align: left
@@ -71,7 +91,7 @@ content:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
         text: Read More
-        url: ../post/2022-09-13-the-hague-innovators-award/
+        url: https://reprex.nl/post/2022-09-13-the-hague-innovators-award/
     - title: Try Our Software
       content: </br></br></br></br></br></br></br></br>
       align: left

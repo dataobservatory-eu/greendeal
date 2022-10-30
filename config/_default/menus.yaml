@@ -127,11 +127,6 @@ main:
     url: '#talks'
     weight: 92
     parent: Contact
-  - name: Meetups in Europe
-    url: '/meetup'
-    weight: 93
-    parent: Contact
-
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV

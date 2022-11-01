@@ -59,5 +59,4 @@ Reprex produces open-source scientific software, and various collaborative data 
 
 {{< figure src="img/package_screenshots/regions_package_20221101_16x9.png" caption="Reprex produces [open-source scientific software](/https://reprex.nl/#releases), and various collaborative data engineering infrastructures to get legally open governmental data and open science data in a timely, usable format to ecological researchers, and ecotech innovators." numbered="true" >}}
 
-
 Reprex’s data observatories, particularly the [Green Deal Data Observatory](/#slider) are public-private partnerships that foster the collective collection, processing, peer-review, and reuse of novel big data, like BeeSage’s beehive data, and reusable statistical and environmental data. We hope to place the permanent institution of this PPP in the Hague, which is already the [World's Smartest City](https://thehague.com/businessagency/the-hague-the-winner-world-smart-city-award-2021), and which wants to remain a global centre of excellence of peace, justice, and sustainability in the era of big data and AI.

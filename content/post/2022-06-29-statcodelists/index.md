@@ -5,7 +5,7 @@ date:  2022-06-29T08:12:00+01:00
 lastmod:  2022-06-29T08:12:00+01:00
 draft:  false
 
-authors:  ["daniel_antal"]
+authors:  ["daniel_antal", "reprex"]
 
 doi: 10.5281/zenodo.6751783
 
@@ -36,8 +36,6 @@ The goal of `statcodelists` is to promote the reuse and exchange of statistical 
 {{< spoiler text="Click to expand table of contents of the post" >}}
 {{<toc>}}
 {{< /spoiler >}}
-
-
 
 ## Purpose
 

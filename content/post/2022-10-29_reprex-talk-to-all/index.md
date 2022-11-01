@@ -4,7 +4,7 @@ subtitle:  ""
 date:  2022-10-29T16:17:00+02:00
 lastmod:  2022-10-29T16:17:00+02:00
 
-authors:  ["daniel_antal", "andres", "borbala_domotorfy", "gabija_liaugminaite", "botond_vitos"]
+authors:  ["daniel_antal", "andres", "borbala_domotorfy", "gabija_liaugminaite", "botond_vitos", "reprex"]
 
 tags:  ["Reprex", "The Hague", "Netherlands", "The Hague Innovators Challenge 2022", "ImpactCity"]
 

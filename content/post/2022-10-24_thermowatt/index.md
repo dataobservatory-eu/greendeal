@@ -5,13 +5,12 @@ date:  2022-10-24T16:18:00+02:00
 lastmod:  2022-10-24T16:18:00+02:00
 draft:  false
 
-authors:  ["daniel_antal"]
-
+authors:  ["thermowatt"]
 
 tags:  
- - semantic web
- - wastewater
- - waste energy
+ - Semantic web
+ - Wastewater
+ - Waste energy
  - web 3.0
  
 
@@ -30,8 +29,6 @@ Europe is preparing for the coldest winter since the second world war.  We must 
 
 
 Washing machines, showers, and even floor-wiping buckets are full of water that is significantly and constantly warmer than the cold European winter. We know well from our studies in elementary school physics that it is at least theoretically possible to utilize the heat going down the sink from our houses as heat. Maybe it is even possible to conserve it for future use.  This is how geothermal energy works for heat and power generation. This is exactly what heat pumps do in many houses. But how could we install heat pumps into an 8-story-high residential building in the Hague?  How could we save this wasted heat?
-
-
 
 Converting the inner energy of lukewarm or warm water into hot water is theoretically possible, the question is, what would be necessary to make this economic in everyday life?  Saving the energy wasted from a washing machine or a shower would be most likely to succeed if we would not need to convert to electricity (the conversion always leads to a loss of much energy due to the inefficiency of the conversion) and use the energy of the warm water for heating. We need to find places where there is an abundant use of lukewarm water in the sewage and there is a stable need for heat nearby. It also helps if the potential buyer has long-term contracting credibility. To install a pump that will, drop by drop, save energy from lukewarm water will need years of operation to turn economically profitable.
 

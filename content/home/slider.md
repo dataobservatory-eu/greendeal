@@ -16,7 +16,7 @@ design:
 content:
   slides:
     - title: Vote in The Hague Innovators Challenge!
-      content: '</br></br></br></br></br></br></br></br>'
+      content: '</br></br></br></br>'
       align: left
       background:
         position: top
@@ -26,8 +26,8 @@ content:
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
-        text: Scroll ↡ and vote REPREX :)
-        url: https://www.impactcity.nl/en/cast-your-vote-for-the-hague-innovators-challenge-2022/
+        text: "Vote REPREX :)"
+        url: ../post/2022-10-29_reprex-talk-to-all/
     - title: ""
       content: '</br></br>Our new, vertical observatories bring ESG and antitrust
       solutions from our domain-specific observatories. The competition observatory

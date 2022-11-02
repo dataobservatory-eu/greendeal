@@ -11,7 +11,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Data curation and data exchange for data-driven pollination
+role: Data-driven beekeeping use cases for productivity and sustainability
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,7 @@ organizations:
      url: https://beesage.co/
 
 # Short bio (displayed in user profile at end of posts)
-bio: BeeSage is a data-driven startup that boosts productivity and honey yield to benefit the Earth through data-driven pollination
+bio: BeeSage is a deep tech startup building a modular beehive monitoring system to benefit the Earth through data-driven pollination
 
 topics:
 - Statistical programming
@@ -60,6 +60,6 @@ user_groups:
 - institutional partners
 ---
 
-BeeSage is a modular [beehive monitoring system](https://beesage.co/) that boosts productivity and honey yield to benefit the Earth through data-driven pollination. Our software and hardware such as Smart Beehive Scales help beekeepers mitigate risks and enable informed decisions, while turning every apiary into a weather station.
+[BeeSage](https://greendeal.dataobservatory.eu/post/2022-10-31_beesage/) is a modular [beehive monitoring system](https://beesage.co/) that boosts productivity and honey yield to benefit the Earth through data-driven pollination. Our software and hardware such as Smart Beehive Scales help beekeepers mitigate risks and enable informed decisions, while turning every apiary into a weather station.
 
 BeeSage is also creating the **HiveMap** as a data analytics product that enables beekeepers associations, environmental organisations and other stakeholders to turn beehive and remote sensing data into valuable insights.

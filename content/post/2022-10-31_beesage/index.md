@@ -19,9 +19,8 @@ draft: false
 featured: false
 
 # Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'BeeSage is a data-driven startup that boosts productivity and honey yield to benefit the Earth through data-driven pollination'
+  caption: 'BeeSage is a deep tech startup building a modular beehive monitoring system to benefit the Earth through data-driven pollination.'
   focal_point: "bottom"
   placement: 2
   preview_only: false
@@ -41,16 +40,16 @@ tags:
 
 **BeeSage** is an early stage startup which is contesting the [The Hague Innovators Award](https://www.impactcity.nl/en/service/the-hague-innovators-challenge/) in the pre-startup category. They are evangelizing data-driven beekeeping for productivity and sustainability, [Reprex](/authors/reprex) is an impact scale-up in the other category of this competition for more mature startups that is building collaborative, open scholarly data infrastructure, so-called data observatories to support the needs of various data-driven policy, business, or scientific innovation. 
 
-We met in the ImpactCity initiative of The Hague, and we'd like to build on The Hague impact startup ecosystem by combining our respective strengths so we decided to join forces! We both want to win in The Hague Innovators’ Challenge in 2022, but we only compete for the votes of the audience. Through our cooperation, we would like to increase the viability of BeeSage in the pre-startup category and increase the value proposition of Reprex in the startup category to the jury in ImpactFest. 
+We met in the `ImpactCity` initiative of The Hague, and we'd like to build on The Hague impact startup ecosystem by combining our respective strengths so we decided to join forces! We both want to win in The Hague Innovators’ Challenge in 2022, but we only compete for the votes of the audience. Through our cooperation, we would like to increase the viability of BeeSage in the pre-startup category and increase the value proposition of Reprex in the startup category to the jury in ImpactFest. 
 
-{{< figure src="/img/blogposts_2022/beesage_team.jpg" caption="BeeSage is building HiveMap as a data analytics software." numbered="true" >}}
+{{< figure src="/img/blogposts_2022/beesage_team.jpg" caption="Remote team of engineers in the Netherlands, Latvia and Portugal." numbered="true" >}}
 
 
 BeeSage modular beehive monitoring system boosts productivity and honey yield to benefit the Earth through data-driven pollination. Their software and hardware such as Smart Beehive Scales help beekeepers mitigate risks and enable informed decisions, while turning every apiary into a weather station.
 
-They are also building HiveMap as a data analytics software, which enables beekeeper associations, environmental organizations and other stakeholders to turn beehive and remove sensing data into valuable insights. This product can be greatly enhanced through the latest data from Europe’s Copernicus satellites, from meteorological and air pollution sources. This is where Reprex’s Green Deal Data Observatory comes into the picture.
+They are also building `HiveMap` as a data analytics software, which enables beekeeper associations, environmental organizations and other stakeholders to turn beehive and remove sensing data into valuable insights. This product can be greatly enhanced through the latest data from Europe’s Copernicus satellites, from meteorological and air pollution sources. This is where Reprex’s [Green Deal Data Observatory](https://greendeal.dataobservatory.eu/) comes into the picture.
 
-{{< figure src="/img/blogposts_2022/hivemap.webp" caption="BeeSage is building HiveMap as a data analytics software." numbered="true" >}}
+{{< figure src="/img/blogposts_2022/BeeSage_hivemap.png" caption="BeeSage is building HiveMap as a data analytics software." numbered="true" >}}
 
 
 Beekeepers associations, small research groups, or Ecotech startups cannot afford to build a full team of data engineers, data scientists, and statisticians to tap into components of raw inflation data (to find honey price or food value chain data), to create validated and continuously maintained data pipelines from environmental satellites, the data warehouses of Eurostat and the European Environmental Agency. They cannot hire small-area statisticians and ecological regression experts to create ecological and key business indicators for small tracts of land that are directly relevant to the health of a honeybee colony. 

@@ -28,6 +28,36 @@ content:
         icon_pack: fas
         text: "Vote REPREX :)"
         url: ../post/2022-10-29_reprex-talk-to-all/
+    - title: "Open Data: Gold Without Rush"
+      content: 'When you need data from the past, it is too late to start 
+      collecting it. If you need satellite data, it is unlikely that you
+      can have your own sensors in the space. Working with open data is 
+      sometimes cheaper than with market vendor data. But most open data is 
+      not processed. We made the investment to clean it for you.'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.5
+        media: img/blogposts_2021/Gold_panning_at_Bonanza_Creek_4x6.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Blog: Why is it so hard to work with it?"
+        url: ../post/2021-06-18-gold-without-rush/
+    - title: ""
+      content: ''
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 0.3
+        media: img/slides/panning_open_data_automation_white.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Software solutions"
+        url: ../#releases
     - title: ""
       content: '</br></br>Our new, vertical observatories bring ESG and antitrust
       solutions from our domain-specific observatories. The competition observatory

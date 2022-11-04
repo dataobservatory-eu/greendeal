@@ -3,7 +3,7 @@ title: Big Data for All - Building Collaborative Data Observatories
 subtitle: The case of the music industry
 
 event: Eindhoven Innovation Café Breakout Talks
-event_url: https://wnim.lt/
+event_url: https://www.ehvinnovationcafe.org/program/
 
 location: Kazerne – Home of Design
 address:
@@ -51,7 +51,6 @@ projects:
  - OpenMusE
  
 links:
-links:
 - icon: twitter
   icon_pack: fab
   name: "@DigitalMusicObs"
@@ -64,9 +63,17 @@ links:
   icon_pack: fab
   name: Reprex
   url: https://www.linkedin.com/company/68855596/
+- icon: youtube
+  icon_pack: fab
+  name: YouTube
+  url: https://youtu.be/kM54gAAbHY0?t=05m22s
 ---
 
 {{% callout note %}}
 Daniel Antal, Reprex’s founder will talk in the [Eindhoven Innovation Café](https://www.ehvinnovationcafe.org/past-events/). You can rewatch some former talks on their website.
 {{% /callout %}}
 
+
+The recorded livestreaming starts at 5 minutes and 22 seconds:
+
+{{< youtube kM54gAAbHY0 >}}

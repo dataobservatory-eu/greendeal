@@ -12,7 +12,16 @@ tags:
  - Wastewater
  - Waste energy
  - web 3.0
- 
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  link: https://twitter.com/GreenDealObs
+- icon: linkedin
+  icon_pack: fab
+  name: Follow
+  link: https://www.linkedin.com/company/78556699
 
 summary:  "Europe is preparing for the coldest winter since the second world war. This is a great moment to give new inventors who want to save wasted energy a chance. But how do we find locations for these new things?"
 

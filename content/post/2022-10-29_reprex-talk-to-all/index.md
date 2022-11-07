@@ -10,6 +10,24 @@ tags:  ["Reprex", "The Hague", "Netherlands", "The Hague Innovators Challenge 20
 
 summary:  "We are finalists in The Hague Innovation Awards with a product offering and a message that big data and AI should work for all: ethnic minorities, small nations, small languages, womxn. Please vote for us."
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  link: https://twitter.com/GreenDealObs
+- icon: github
+  icon_pack: fab
+  name: Open Repo & Code
+  link: https://github.com/dataobservatory-eu
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  link: https://zenodo.org/communities/greendeal_observatory/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  link: https://www.linkedin.com/company/78556699
+
 # Featured image
 image: 
   caption:  "Cast your vote in the competition"
@@ -46,10 +64,9 @@ The message is the message! We are an ethical data and AI company, and one of ou
 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan. 
 
 2 **Retweet** our appeal from one of our observatory Twitter accounts. For music audiences:
+{{< tweet user="CompDataObs" id="1589246698001686529" >}}
 
-{{< tweet user="GreenDealObs" id="1587513316699668482">}}
-
-The same message forgeneral cultural audiences: [@CultDataObs](https://twitter.com/CultDataObs/status/1587482559851761664); for music audiences: [@DigitalMusicObs](https://twitter.com/DigitalMusicObs/status/1587480876383887369)
+The same message forgeneral cultural audiences: [@CultDataObs](https://twitter.com/CultDataObs/status/1587482559851761664); for music audiences: [@DigitalMusicObs](https://twitter.com/DigitalMusicObs/status/1587480876383887369), for green audeinces [@GreenDealObs](https://twitter.com/GreenDealObs/status/1587513316699668482)
 
 3. Like our [LinkedIn page]((https://www.linkedin.com/posts/reprexbv_the-hague-innovators-2022-reprex-activity-6993244940323430400-Z5dD)) and share our appeal.
 

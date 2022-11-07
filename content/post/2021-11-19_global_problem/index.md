@@ -11,6 +11,20 @@ tags:  ["survey harmonization","data-as-service", "retroharmonize", "climate awa
 
 summary:  "Imagine if you could compare data easily from surveys taken about climate change from all European countries, maybe even from other continents, from different years? If you could work with a sample of not only n=1000, n=4000, or n=10,000 but n=100,000? What type of granularity it would give you about the perception of climate change or supported policy measures?  That is exactly what our survey harmonization software allows for you to do."
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  link: https://twitter.com/GreenDealObs
+- icon: linkedin
+  icon_pack: fab
+  name: Follow
+  link: https://www.linkedin.com/company/78556699
+- icon: code
+  icon_pack: fas
+  name: Tutorials & Code
+  link: https://retroharmonize.dataobservatory.eu/ 
+  
 projects:  ""
 
 # Featured image

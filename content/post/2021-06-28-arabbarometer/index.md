@@ -11,7 +11,21 @@ tags:  ["Open data", "Open science", "R", "Data collection", "Arab Barometer", "
 
 summary:  "A new version of the retroharmonize R package – which is working with retrospective, ex post harmonization of survey data – was released yesterday after peer-review on CRAN. It allows us to compare opinion polling data from the Arab Barometer with the Eurobarometer and Afrorbarometer. This is the first version that is released in the rOpenGov community, a community of R package developers on open government data analytics and related topics."
 
-projects:  ["eu-datathon_2021"]
+projects:  ""
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  link: https://twitter.com/GreenDealObs
+- icon: linkedin
+  icon_pack: fab
+  name: Follow
+  link: https://www.linkedin.com/company/78556699
+- icon: code
+  icon_pack: fas
+  name: Tutorials & Code
+  link: https://retroharmonize.dataobservatory.eu/ 
 
 # Featured image
 image:

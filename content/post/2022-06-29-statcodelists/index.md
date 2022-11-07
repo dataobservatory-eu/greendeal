@@ -21,6 +21,20 @@ image:
   caption:  "Visit the documentation website of statcodelists on [statcodelists.dataobservatory.eu/](https://statcodelists.dataobservatory.eu/)."
   focal_point:  "Center"
   preview_only:  true
+  
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  link: https://twitter.com/GreenDealObs
+- icon: code
+  icon_pack: fas
+  name: Open Repo & Code
+  link: https://statcodelists.dataobservatory.eu/
+- icon: linkedin
+  icon_pack: fab
+  name: Follow
+  link: https://www.linkedin.com/company/78556699
 
 categories:
 - R-bloggers

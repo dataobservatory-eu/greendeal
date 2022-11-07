@@ -37,6 +37,10 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/company/78556699
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  link: https://zenodo.org/communities/greendeal_observatory/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 

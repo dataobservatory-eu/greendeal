@@ -27,6 +27,10 @@ links:
   icon_pack: fab
   name: Join our collaboration community on LinkedIn
   url: https://www.linkedin.com/company/78556699
+- icon: person-booth
+  icon_pack: fas
+  name: Vote
+  url: ../post/2022-10-29_reprex-talk-to-all/
 
 # Featured image
 image: 

@@ -22,6 +22,10 @@ links:
   icon_pack: fab
   name: Get in tourch
   url: https://www.linkedin.com/company/78556699
+- icon: person-booth
+  icon_pack: fas
+  name: Vote
+  url: ../post/2022-10-29_reprex-talk-to-all/
 
 summary:  "Europe is preparing for the coldest winter since the second world war. This is a great moment to give new inventors who want to save wasted energy a chance. But how do we find locations for these new things?"
 

@@ -67,6 +67,11 @@ links:
   icon_pack: fas
   name: Slides
   url: ../slides/ehv-reprex
+- icon: person-booth
+  icon_pack: fas
+  name: Vote
+  url: ../post/2022-10-29_reprex-talk-to-all/
+  
 ---
 
 Reprex's co-founder, [Daniel Antal](/authors/daniel_antal) talked in the [Eindhoven Innovation Café](https://www.ehvinnovationcafe.org/past-events/) about these issues. You can watch the recorded version of the the livestream that starts at 5 minutes and 22 seconds:

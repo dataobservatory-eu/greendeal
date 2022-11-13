@@ -17,6 +17,24 @@ date: "2021-03-05T00:00:00Z"
 # Date updated
 lastmod: "2022-08-30T13:14:00+02:00"
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: code
+  icon_pack: fas
+  name: Code & Tutorials
+  url: https://retroharmonize.dataobservatory.eu/
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  url: https://zenodo.org/communities/greendeal_observatory/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
+
 # Show this page in the Featured widget?
 featured: false
 

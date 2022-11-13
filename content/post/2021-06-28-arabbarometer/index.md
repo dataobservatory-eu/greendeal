@@ -17,15 +17,15 @@ links:
 - icon: twitter
   icon_pack: fab
   name: "@GreenDealObs"
-  link: https://twitter.com/GreenDealObs
-- icon: linkedin
-  icon_pack: fab
-  name: Follow
-  link: https://www.linkedin.com/company/78556699
+  url: https://twitter.com/GreenDealObs
 - icon: code
   icon_pack: fas
-  name: Tutorials & Code
-  link: https://retroharmonize.dataobservatory.eu/ 
+  name: Code & Tutorials
+  url: https://retroharmonize.dataobservatory.eu/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
 
 # Featured image
 image:

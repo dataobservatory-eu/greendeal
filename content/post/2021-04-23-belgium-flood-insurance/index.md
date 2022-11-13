@@ -39,6 +39,24 @@ authors:
 - karel_volckaert
 - milos_popovic
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: code
+  icon_pack: fas
+  name: Code & Tutorials
+  url: https://regions.dataobservatory.eu/
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  url: https://zenodo.org/communities/greendeal_observatory/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
+
 tags:
 - water
 - drought

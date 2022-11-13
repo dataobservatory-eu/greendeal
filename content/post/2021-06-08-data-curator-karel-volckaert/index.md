@@ -11,11 +11,24 @@ tags:  ["Open data", "Open science", "Reproducible research", "Open government",
 
 summary:  "Credibility is enhanced through cross-links between different data from different domains that “does not disprove” one another or that is internally consistent. If, say, data on taxable income goes in one direction and taxes in another, it is the reasoned reconciliation of the - alleged or real - inconsistency that will validate the comprehensive data set. So I am a great believer in broad, real-time observatories where not only the data capture, but the data reconciliation is automated, sometimes by means of a simple comparative statics analysis, in other cases maybe through quite elaborate artificial intelligence."
 
-projects:  ["eu-datathon_2021"]
+projects: ""
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  url: https://zenodo.org/communities/greendeal_observatory/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
+  
 # Featured image
 image:
-  # Caption (optional)
   caption:  "Karel Volckaert"
 
   # Focal point (optional)

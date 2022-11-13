@@ -18,6 +18,16 @@ draft: false
 # Show this page in the Featured widget?
 featured: false
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: linkedin
+  icon_pack: fab
+  name: GDDO on LinkedIn
+  link: https://www.linkedin.com/company/78556699
+
 # Featured image
 image:
   caption: 'BeeSage is a deep tech startup building a modular beehive monitoring system to benefit the Earth through data-driven pollination.'

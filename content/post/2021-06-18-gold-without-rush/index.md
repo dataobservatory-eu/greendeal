@@ -11,7 +11,21 @@ tags:  ["Open data", "Open science", "R", "Data collection"]
 
 summary:  "If open data is the new gold, why even those who release fail to reuse it? We created an open collaboration of data curators and open-source developers to dig into novel open data sources and/or increase the usability of existing ones. We transform reproducible research software into research- as-service."
 
-projects:  ["eu-datathon_2021"]
+projects:  ""
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  url: https://zenodo.org/communities/greendeal_observatory/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
 
 # Featured image
 image:

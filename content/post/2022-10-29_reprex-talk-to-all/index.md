@@ -14,19 +14,19 @@ links:
 - icon: twitter
   icon_pack: fab
   name: "@GreenDealObs"
-  link: https://twitter.com/GreenDealObs
+  url: https://twitter.com/GreenDealObs
 - icon: github
   icon_pack: fab
   name: Open Repo & Code
-  link: https://github.com/dataobservatory-eu
+  url: https://github.com/dataobservatory-eu
 - icon: fingerprint
   icon_pack: fas
   name: Authoritative data
-  link: https://zenodo.org/communities/greendeal_observatory/
+  url: https://zenodo.org/communities/greendeal_observatory/
 - icon: linkedin
   icon_pack: fab
   name: Join our collaboration community on LinkedIn
-  link: https://www.linkedin.com/company/78556699
+  url: https://www.linkedin.com/company/78556699
 
 # Featured image
 image: 

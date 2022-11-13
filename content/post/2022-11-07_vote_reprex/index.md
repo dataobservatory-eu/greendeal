@@ -2,6 +2,8 @@
 title: "Reprex: Big Data For All"
 subtitle: Vote Reprex in The Hague Innovation Award Finals
 
+# GreenDeal Version
+
 # Summary for listings and search engines
 summary: "Reprex is the Hague-based impact startup developing decentralized, modern, web 3.0-compatible data observatories. Our mission is to fulfill parts of the SDG 16 and 17 goals: based on the open collaboration method of open-source software development and open knowledge management, we would like to enable impact makers to contribute to other SDG goals by making AI and big data work for them."
  
@@ -24,6 +26,32 @@ image:
   focal_point: "bottom"
   placement: 2
   preview_only: false
+  
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: linkedin
+  icon_pack: fab
+  name: Reprex
+  url: https://www.linkedin.com/company/68855596/
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  link: https://zenodo.org/communities/greendeal_observatory/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk
+- icon: linkedin
+  icon_pack: fab
+  name: GDDO on LinkedIn
+  link: https://www.linkedin.com/company/78556699
+- icon: person-booth
+  icon_pack: fas
+  name: Vote
+  url: ../post/2022-10-29_reprex-talk-to-all/
 
 authors:
   - admin
@@ -35,23 +63,6 @@ tags:
   - ESG reporting
   - ImpactCity
   
-links:
-- icon: twitter
-  icon_pack: fab
-  name: "@GreenDealObs"
-  link: https://twitter.com/GreenDealObs
-- icon: github
-  icon_pack: fab
-  name: Open Repo & Code
-  link: https://github.com/dataobservatory-eu
-- icon: fingerprint
-  icon_pack: fas
-  name: Authoritative data
-  link: https://zenodo.org/communities/greendeal_observatory/
-- icon: linkedin
-  icon_pack: fab
-  name: Join our collaboration community on LinkedIn
-  link: https://www.linkedin.com/company/78556699
 ---
 
 [Reprex](/authors/reprex) is the Hague-based impact startup developing decentralized, modern, web 3.0-compatible data observatories. Our mission is to fulfill parts of the SDG 16 and 17 goals: based on the open collaboration method of open-source software development and open knowledge management, we would like to enable impact makers to contribute to other SDG goals by making AI and big data work for them.
@@ -69,8 +80,6 @@ links:
 Go to [Cast your vote for The Hague Innovators challenge 2022!](https://www.impactcity.nl/en/cast-your-vote-for-the-hague-innovators-challenge-2022/) and choose Reprex :)
 
 <td style="text-align: center;">{{< figure src="img/blogposts_2022/ImpactCity_cast_your_vote.png" caption="Make sure you select **Reprex** and write in your email (it is safe here.) You need to tick `✅ I'm not a robot'  to be able to select companies. Further instructions 🇬🇧  [here](/post/2022-10-29_reprex-talk-to-all/) 🇭🇺 [magyarul itt](/impactcity/magyar/)." numbered="false" >}}</td>
-
-
 
 ## What do we do in the European Green Deal?
 
@@ -94,8 +103,6 @@ Go to [Cast your vote for The Hague Innovators challenge 2022!](https://www.impa
 
 ## Plans in The Hague?
 
-Our message is simple: `doing business and doing good` for the city of the Hague means a vote for Reprex.   We would like to win the Hague Innovators Challenge in 2022 because we believe we could multiply our growth in partnership with the Hague. We have a significant budget to develop our observatories, and our company is already located in the Hague, in Apollo 14,  -- but most of our team members, not to mention the observatory’s non-data personnel are not based in our beautiful and smart city. The observatories are important platforms for our growth, and they could create a lot more jobs and impact in the city than in our startup company.  Should we win the prize, we would spend the 25,000 euros on one thing: to develop our observatories into a real public-private partnership in the Hague, with a permanent office in Apollo 14 or the Hague Humanity Hub. 
+Our message is simple: `doing business and doing good` for the city of the Hague means a vote for Reprex.   We would like to win the Hague Innovators Challenge in 2022 because we believe we could multiply our growth in partnership with the Hague. We have a significant budget to develop our observatories, and our company is already located in the Hague, in Apollo 14—but most of our team members, not to mention the observatory’s non-data personnel are not based in our beautiful and smart city. The observatories are important platforms for our growth, and they could create a lot more jobs and impact in the city than in our startup company.  Should we win the prize, we would spend the 25,000 euros on one thing: to develop our observatories into a real public-private partnership in the Hague, with a permanent office in Apollo 14 or the Hague Humanity Hub. 
 
 Reprex’s data observatories, particularly the [Green Deal Data Observatory](/#slider) are public-private partnerships that foster the collective collection, processing, peer-review, and reuse of novel big data, like BeeSage’s beehive data, and reusable statistical and environmental data. We hope to place the permanent institution of this PPP in the Hague, which is already the [World's Smartest City](https://thehague.com/businessagency/the-hague-the-winner-world-smart-city-award-2021), and which wants to remain a global centre of excellence of peace, justice, and sustainability in the era of big data and AI.
-
-

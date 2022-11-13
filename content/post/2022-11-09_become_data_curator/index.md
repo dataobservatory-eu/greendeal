@@ -9,8 +9,8 @@ summary: "Our curators help us vocalize the needs of their domain, be it data-dr
 projects: ''
 
 # Date published
-date: "2022-10-31T12:00:00Z"
-lastmod: "2022-10-31T12:00:00Z"
+date: "2022-11-09T11:46:00+01:00"
+lastmod: "2022-11-09T11:46:00+01:00"
 
 # Is this an unpublished draft?
 draft: false
@@ -39,19 +39,20 @@ links:
 - icon: twitter
   icon_pack: fab
   name: "@GreenDealObs"
-  link: https://twitter.com/GreenDealObs
+  url: https://twitter.com/GreenDealObs
 - icon: github
   icon_pack: fab
   name: Open Repo & Code
-  link: https://github.com/dataobservatory-eu
+  url: https://github.com/dataobservatory-eu
 - icon: fingerprint
   icon_pack: fas
   name: Become a co-creator on Zenodo
-  link: https://zenodo.org/communities/greendeal_observatory/
+  url: https://zenodo.org/communities/greendeal_observatory/
 - icon: linkedin
   icon_pack: fab
   name: Join our collaboration community on LinkedIn
-  link: https://www.linkedin.com/company/78556699
+  url: https://www.linkedin.com/company/78556699
+  
 ---
 
 A data curator is a contributor in our open collaboration who will be named as a co-creator of tidy, standardized, reusable, FAIR, datasets in his/her field of expertise.  Our curators help us vocalize the needs of their domain, be it data-driven beekeeping, or detecting algorithmic biases of recommender systems, and evaluates if the data that we come up with is directly usable and actionable. A data curator is a similar co-author as a “contributor” to open source software or a co-author of a journal article. 

@@ -21,6 +21,24 @@ summary:  "rOpenGov, Reprex, and other open collaboration partners teamed up to 
 projects:  
  - Eviota
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@GreenDealObs"
+  url: https://twitter.com/GreenDealObs
+- icon: code
+  icon_pack: fas
+  name: Code & Tutorials
+  url: https://iotables.dataobservatory.eu/
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  url: https://zenodo.org/communities/greendeal_observatory/
+- icon: linkedin
+  icon_pack: fab
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
+
 # Featured image
 image:
   caption:  ""

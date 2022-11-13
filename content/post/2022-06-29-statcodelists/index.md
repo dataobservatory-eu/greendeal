@@ -26,18 +26,23 @@ links:
 - icon: twitter
   icon_pack: fab
   name: "@GreenDealObs"
-  link: https://twitter.com/GreenDealObs
+  url: https://twitter.com/GreenDealObs
 - icon: code
   icon_pack: fas
-  name: Open Repo & Code
-  link: https://statcodelists.dataobservatory.eu/
+  name: Code & Tutorials
+  url: https://statcodelists.dataobservatory.eu/
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative data
+  url: https://zenodo.org/communities/greendeal_observatory/
 - icon: linkedin
   icon_pack: fab
-  name: Follow
-  link: https://www.linkedin.com/company/78556699
+  name: Join our collaboration community on LinkedIn
+  url: https://www.linkedin.com/company/78556699
 
 categories:
 - R-bloggers
+
 ---
 <td style="text-align: center;">{{< figure src="/img/blogposts_2022/statcodelists_website.png" caption="Visit the documentation website of statcodelists on [statcodelists.dataobservatory.eu/](https://statcodelists.dataobservatory.eu/)." numbered="false" >}}</td>
 

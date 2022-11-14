@@ -28,6 +28,19 @@ content:
         icon_pack: fas
         text: "Vote REPREX :)"
         url: ../post/2022-11-07_vote_reprex/
+    - title: ""
+      content: '</br></br></br></br>'
+      align: left
+      background:
+        position: center
+        color: '#555'
+        brightness: 1
+        media: slides/slider/Reprex_Linecheck_2022-centered-broader.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "See you in Milano"
+        url: ../talk/linecheck-milano-it/
     - title: "Open Data: Gold Without Rush"
       content: 'When you need data from the past, it is too late to start 
       collecting it. If you need satellite data, it is unlikely that you

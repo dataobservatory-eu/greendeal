@@ -29,8 +29,8 @@ content:
       tag: '*'
     - name: Eviota
       tag: Eviota
-    - name: Make Coal History
-      tag: Make coal history
+    - name: Data Observatory Labs
+      tag: Data Observatory Labs
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

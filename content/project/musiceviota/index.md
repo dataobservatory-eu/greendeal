@@ -1,48 +1,55 @@
 ---
-title: Eviota
-summary: Connected financial and sustainability reporting
+# Project title.
+title: "Music Eviota"
+subtitle: "Sustainability reporting for music organizations" 
 
 # Date this page was created.
-date: "2022-01-05T00:00:00Z"
-date_end: '2022-03-16T12:15:00+01:00'
+date: 2022-06-09T09:40:00+01:00
+lastmod: 2022-11-20T09:40:00+01:00
+
+# Project summary to display on homepage.
+summary: "We will help small music organizations in their sustainability reporting, where detail data and reporting standards are only available for greenhouse gas emissions."
 
 # Tags: can be used for filtering projects.
-tags: 
-- Eviota
+tags: ["Music Eviota", "Eviota", "Sustainability", "European Green Deal", "MusicAIRE"]
+
+# Optional external URL for project (replaces project detail page).
+external_link: ""
+
+# Special chars . . . —
+# Slides (optional).
+#   Otherwise, set `slides: ""`.
+slides: ""
+
+authors: ["admin", "musicaire"]
 
 links:
-- icon: twitter
+- icon: mastodon
   icon_pack: fab
-  link: https://twitter.com/GreenDealObs
+  name: "@reprex@mastodon.nl"
+  url: https://mastodon.nl/web/@reprex/
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/company/eviota/
-- icon: github
-  icon_pack: fab
-  link: https://github.com/dataobservatory-eu
+  name: Reprex
+  url: https://www.linkedin.com/company/68855596/
 
+# Links (optional).
+url_pdf: ""
+url_slides: ""
+url_video: ""
+url_code: ""
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
 image:
-  caption: "Reporting the impacts of the entire value chain."
-  focal_point: Smart
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: 2023_sustainability-measurement-reporting-for-cfo
-
+  caption: ""
+  focal_point: "Center"
+  preview_only: true
+  
+slides: music-eviota
+  
 ---
-
-
-The European Union is introducing a ground-breaking accounting standard which will call on about 49,000 enterprises to assess their ‘double materiality’, i.e. both the financial and sustainability impacts of their own activities, as well as those of their buyers and suppliers. Does your company buy cattle or sheep products to produce meat? You must consider the methane emissions of your suppliers. Do you manufacture cars? You must account for the fuel emissions of the buyers and users of your product.
-
-
-{{< spoiler text="Why Eviota?" >}}
-<td style="text-align: center;">{{< figure src="/img/eviota/eviota-bifasciata.png" caption="" numbered="false" >}}</td>
-We named Eviota after a small fish that lives symbiotically among the tentacles of the mushroom coral. It not only rhymes with our software, [iotables](/software/iotables), but it refers to the fragile ecosystem of coral reefs: miraculous and beautiful forms of life under threat from global warming. The first step of saving our planet is to objectively detect where your organization’s stakeholders – suppliers, buyers, workers, technology – leave an impact on the environment.
-{{< /spoiler >}}
-
+<td style="text-align: center;">{{< figure src="/img/eviota/Scope3_chart_16x9.jpg" caption="Reporting the impacts of the entire value chain." numbered="false" >}}</td>
 
 The Eviota project aims to create sustainability reports connected to the financial accounts of companies, NGOs, and civil society actors.  The first phase concentrates on greenhouse gases and air pollutants.  We want to create reliable estimates of the carbon and other pollutants footprint of music-related (social) enterprises based on their spending (“connected financial and sustainability reporting”.)
 
@@ -164,4 +171,5 @@ reports and non-financial disclosures of the financial reports (which are not ma
 The objectives of the MusicAIRE GREEN recovery program is increasing the music sector’s environmental sustainability and ecological awareness with a view to greening the music industry, in particular live acts, festivals and touring, as well as supporting innovative start-ups aiming at decreasing the environmental footprint of online data storing and music distribution.
 
 <td style="text-align: center;">{{< figure src="/img/logos/EN_Co-Funded_by_the_EU_POS.png" caption="Co-funded by the European Union" numbered="false" >}}</td>
+
 

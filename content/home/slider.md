@@ -15,19 +15,19 @@ design:
 
 content:
   slides:
-    - title: <span style="color:#00348A">The Hague Innovators Challenge Finals 2022</span>
+    - title: ""
       content: '</br></br></br></br>'
       align: left
       background:
         position: center
         color: '#555'
         brightness: 1
-        media: slides/slider/reprex-big-data-for-all-right_aligned_white_slide.webp
+        media: slides/slider/music_eviota_centered.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
-        text: "Vote REPREX :)"
-        url: ../post/2022-11-07_vote_reprex/
+        text: "Try our tool"
+        url: https://reprex.nl/project/musiceviota/
     - title: ""
       content: '</br></br></br></br>'
       align: left
@@ -36,11 +36,6 @@ content:
         color: '#555'
         brightness: 1
         media: slides/slider/Reprex_Linecheck_2022-centered-broader.webp
-      link:
-        icon: fa-solid fa-right-to-bracket
-        icon_pack: fas
-        text: "See you in Milano"
-        url: ../talk/linecheck-milano-it/
     - title: "Open Data: Gold Without Rush"
       content: 'When you need data from the past, it is too late to start 
       collecting it. If you need satellite data, it is unlikely that you
@@ -77,10 +72,7 @@ content:
       content: 'Just weeks before the tragic, but sadly predictable Belgian floods
       we connected some open, but unprocessed opinion poll data about the perception of 
       flood risk, hydrological data about the actual risk of flood, and public finance 
-      data in the extremely decentralized country.</br>
-      </br>
-      The data has been there, but it was not in a form that public policymakers,
-      insurers of NGOs could have used directly.'
+      data in the extremely decentralized country.</br>'
       align: left
       background:
         position: center
@@ -136,18 +128,13 @@ content:
         text: ""
         url:
     - title: ""
-      content: '</br></br></br></br></br></br></br></br></br></br>'
+      content: '</br></br></br>/br></br></br></br></br></br></br><p color="#FFFFF">We want to make a big impact directly on <a href="https://sdgs.un.org/goals/goal16" target="_blank">SDG Goal 16</a> with increasing transparency, fighting greenwashing, and <a href="https://sdgs.un.org/goals/goal17" target="_blank">SDG Goal 17</a> with offering free, open-source solutions that are applicable even in the least developed environments, and which are packaged into affordable for-profit and public benefit services.</p></br></br></br>'
       align: left
       background:
-        position: center
+        position: bottom
         color: '#555'
-        brightness: 0.8
+        brightness: 0.85
         media: slides/slider/Sustainable_development_goals_17_white.webp
-      link:
-        icon: fa-solid fa-right-to-bracket
-        icon_pack: fas
-        text: "UN SDG 17"
-        url: https://sdgs.un.org/goals/goal17
     - title: 
       content:  </br></br></br></br></br></br></br></br></br></br></br></br>
       align: left

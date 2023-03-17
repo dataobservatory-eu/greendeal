@@ -40,9 +40,8 @@ The European Union is introducing a ground-breaking accounting standard which wi
 
 {{< spoiler text="Why Eviota?" >}}
 <td style="text-align: center;">{{< figure src="/img/eviota/eviota-bifasciata.png" caption="" numbered="false" >}}</td>
-We named Eviota after a small fish that lives symbiotically among the tentacles of the mushroom coral. It not only rhymes with our software, [iotables](/software/iotables), but it refers to the fragile ecosystem of coral reefs: miraculous and beautiful forms of life under threat from global warming. The first step of saving our planet is to objectively detect where your organization’s stakeholders – suppliers, buyers, workers, technology – leave an impact on the environment.
+{{< hl >}}We named Eviota after a small fish that lives symbiotically among the tentacles of the mushroom coral. It not only rhymes with our software, <a href="https://iotables.dataobservatory.eu/" target="_blank">iotables</a>, but it refers to the fragile ecosystem of coral reefs: miraculous and beautiful forms of life under threat from global warming. The first step of saving our planet is to objectively detect where your organization’s stakeholders – suppliers, buyers, workers, technology – leave an impact on the environment.{{< /hl >}}
 {{< /spoiler >}}
-
 
 The Eviota project aims to create sustainability reports connected to the financial accounts of companies, NGOs, and civil society actors.  The first phase concentrates on greenhouse gases and air pollutants.  We want to create reliable estimates of the carbon and other pollutants footprint of music-related (social) enterprises based on their spending (“connected financial and sustainability reporting”.)
 

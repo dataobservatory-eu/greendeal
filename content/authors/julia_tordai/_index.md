@@ -10,7 +10,7 @@ authors: julida_tordai
 superuser: false
 
 # Role/position
-role: 
+role: Biologist and sustainability expert in film and music production
 
 #Organizations/Affiliations
 organizations:

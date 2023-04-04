@@ -99,7 +99,6 @@ to remove copyright law, ethical, interoperability, and semantic barriers to mix
 
 3. Create open source solutions and open knowledge that enables small, independent music, documentary, photography, and book publishers to build audiences, and monetize content with big data and AI algorithms that work for everyone, not only male artists, English language content, and mainstream works.
 
-
 ## Potential partners {#potential-partners}
 
 - [x] Creative enterprises with good YouTube (+Vimeo and other) distribution and rights management track record.
